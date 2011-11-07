@@ -6,7 +6,7 @@ This way it can be retrieved directly by a webserver without the interference of
 
 Static
 ==============
-static.app.awesomeit.nl/js/menu.json
+static.app.awesomeit.nl/content/menu.json
 static.app.awesomeit.nl/resource/image.png
 static.app.awesomeit.nl/style/ait.css
 static.app.awesomeit.nl/content/information.json
@@ -21,7 +21,7 @@ dynamic.app.awesomeit.nl/content/account.php (view personal information, email, 
 
 Process (Usage of form post data and database)
 ==============
-process.app.awesomeit.nl/form/login.php
-process.app.awesomeit.nl/form/logout.php
-process.app.awesomeit.nl/form/account.php
-process.app.awesomeit.nl/form/contactme.php
+process.app.awesomeit.nl/login.php
+process.app.awesomeit.nl/logout.php
+process.app.awesomeit.nl/account.php
+process.app.awesomeit.nl/contactme.php
