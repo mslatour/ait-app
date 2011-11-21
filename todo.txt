@@ -1,9 +1,9 @@
 TODO:
 
 deliverables:
-	schedule -> lineup/talk (lezing info)
-
 	menubalk
+
+	schedule -> lineup/talk (lezing info)
 
 	about/contact [beschrijving/ @mail maps tel]
 
