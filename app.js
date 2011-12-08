@@ -7,10 +7,17 @@ Ext.application({
 	launch: function(){
 		Ext.create('Ext.TabPanel', {
 			fullscreen: true,
+      indicator: false,
+      tabBar:{
+        docked:'bottom',
+        scrollable:{
+          direction: "horizontal"
+        }
+      },
 			items: [
 				{
 					title: 'Schedule',
-					iconcls: 'home',
+					iconCls: 'home',
 					xtype: "list",
 					store: 'lectureStore',
 					itemTpl: 'Lecture: {title}'
@@ -22,17 +29,17 @@ Ext.application({
 				},
 				{
 					title: 'Events',
-					iconcls: 'home',
+					iconCls: 'home',
 					html: 'Upcoming Events'
 				},
 				{
 					title: 'Sponsors',
-					iconcls: 'home',
+					iconCls: 'home',
 					html: 'Our sponsors'
 				},
 				{
 					title: 'Vacancies',
-					iconcls: 'home',
+          iconCls: 'home',
 					html: 'Job and internship opportunities.'
 				}
 			]
