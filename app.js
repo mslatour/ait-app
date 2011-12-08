@@ -17,29 +17,35 @@ Ext.application({
 			items: [
 				{
 					title: 'Schedule',
-					iconCls: 'home',
+					iconCls: 'time',
 					xtype: "list",
 					store: 'lectureStore',
-					itemTpl: 'Lecture: {title}'
+					itemTpl: '{title}',
+          grouped: true,
+          listeners: {
+            select: function(){
+              alert("Select!");
+            }
+          }
 				},
 				{
 					title: 'Contact',
-					iconCls: 'home',
+					iconCls: 'info',
 					html: 'Contact information'
 				},
 				{
 					title: 'Events',
-					iconCls: 'home',
+					iconCls: 'bookmarks',
 					html: 'Upcoming Events'
 				},
 				{
 					title: 'Sponsors',
-					iconCls: 'home',
+					iconCls: 'favorites',
 					html: 'Our sponsors'
 				},
 				{
 					title: 'Vacancies',
-          iconCls: 'home',
+          iconCls: 'team',
 					html: 'Job and internship opportunities.'
 				}
 			]

@@ -2,6 +2,7 @@
 	{
 		title: "Human Robot Interaction",
 		slot: 0,
+    time: "11:00 - 12:00",
 		description: "<p>This talk considers a not too distant future where robots will be part of our daily lives. These robots will interact with us in a way similar to how we interact with each other. Such social interaction between humans and robots brings about many challenges for the design of social robot behaviours. Findings from recent research on human-robot collaboration will be presented to offer insight in how people perceive and trust robots, in what way human attitudes toward robots is influenced and international differences in human responses to social robots.</p>",
 		speaker: {
 			firstname: "Vanessa",
@@ -13,6 +14,7 @@
 	{
 		title: "Algorithmische kunst",
 		slot: 1,
+    time: "11:00 - 12:00",
 		description: "<p>Beeldende kunst wordt steeds vaker met behulp van de computer gemaakt; pen en penseel worden langzamerhand vervangen door Illustrator,Photoshop en AutoCAD. Maar er is ook computerkunst in een striktere betekenis van dat woord: kunst die niet met de computer, maar door de computer gemaakt wordt. Bij deze \"algoritmische kunst\" is de menselijke kunstenaar nog slechts een producer achter de schermen. Hij maakt geen specifieke beelden, maar ontwerpt stijlen of principes, en demonstreert die door middel van computerprogramma's die vol-automatisch oneindig grote oeuvres genereren.</p><p>De generatieve linguïstiek was een belangrijke inspiratiebron voor de algoritmische kunst. Abstracte kunst- en ontwerpstijlen kunnen beschouwd worden als oneindige verzamelingen van complexe symbolen, en men kan proberen zulke verzamelingen d.m.v. formele grammatica's te karakteriseren. Zelfs kan men, naar analogie van Noam Chomsky's Universal Grammar, de mogelijkheid postuleren van een alles-omvattende meta-grammatica voor visuele talen. Zo'n meta-grammatica zou het ultieme postmodernistische kunstwerk zijn; hij zou het mogelijk maken om naar willekeur alle mogelijke beelden te genereren. De totstandkoming van de volgende fase in de kunstgeschiedenis is dan een technisch-wetenschappelijke uitdaging geworden.</p><p>Deze voordracht bespreekt de stand van zaken in dit onderzoekstraject. Aan de orde komen o.m. de technieken die totnutoe gebruikt worden (vaak ontleend aan Kunstmatige Intelligentie of Artificial Life), en de relatie met kunstgeschiedenis en waarnemingspsychologie.</p>",
 		speaker: {
 			firstname: "Remko",
@@ -24,6 +26,7 @@
 	{
 		title: "IT stimulating human creativity",
 		slot: 2,
+    time: "12:15 - 13:15",
 		description: "<p>For a lot of people human creativity is a mystery, impossible to be understood or modeled and yet so simple that it virtually enters into every aspect of life. Every human being has the ability to come up with new, surprising and important ideas or artifacts, we all are creative every day This talk addresses several views on how creativity can be explained and how those models can be used to stimulate and support the creative powers of an individual. A few applications will be presented to exemplify the introduced concepts. The aim of the talk is to show why it is fun to study AI in the context of creativity and why this remains exciting even though there are challenges that seem to be unsolvable.</p>",
 		speaker: {
 			firstname: "Frank",
@@ -35,6 +38,7 @@
 	{
 		title: "Autonomous Helicopter Control",
 		slot: 3,
+    time: "12:15 - 13:15",
 		description: "<p>Reinforcement learning is a type of machine learning wherein intelligent agents learn optimal control policies by interacting with their environment.  It is useful for robot control, system optimization, game playing, information retrieval, etc.  In this talk, I give a brief introduction to the fundamental challenges of reinforcement learning, with particular emphasis on the dilemma between exploration and exploitation.  As a case study, I describe helicopter hovering, a benchmark challenge problem used in recent years in the international Reinforcement Learning Competitions.  I also describe the neuroevolutionary solution we developed that won the 2008 competition, as well as extensions developed for the 2009 competition and beyond that tackle the unique challenges of safe exploration in this high-risk domain.</p>",
 		speaker: {
 			firstname: "Shimon",
@@ -46,11 +50,13 @@
   {
     title: "Break",
     slot: 91,
+    time: "13:15 - 14:15",
     description: ""
   },
 	{
 		title: "Mensgerichte aanpak in innovatie",
 		slot: 4,
+    time: "14:15 - 15:15",
 		description: "<p>Succesvolle innovatie gaat tegenwoordig om veel meer dan alleen het ontwikkelen van nieuwe technologie. Om te benadrukken dat succesvolle innovatie meer is dan technologische innovatie, spreekt men ook wel over diensteninnovatie. Niet alleen is succesvolle (diensten)innovatie vaak een combinatie van een product, dienst en ICT, het succes hangt ook af van de mate waarin de innovatie aansluit bij de beoogde doelgroep. Helaas blijkt dat 75 procent van de gebruikers vindt dat 'zulke geslaagde' ICT-producten vaak meer stress opleveren dan gebruiksgemak. De beleving van de gebruiker speelt een steeds grotere rol in de beoordeling van het succes van een fysiek product of een dienst. Het ontwikkelproces wordt steeds complexer door de gebruikte technologie, de toenemende concurrentie en de verwevenheid van producten, diensten en infrastructuur. Bovendien zijn er vaak veel verschillende partijen bij betrokken met ieder een eigen jargon en een eigen belang. Een mensgerichte aanpak, waarbij de ervaring van de eindgebruiker de partijen bijeenhoudt, biedt grote kansen. Hoe doe je dat?</p><p>Voorbeelden van technieken die de gebruiker centraal stellen in het ontwerp zijn consumer insights, personas, scenario's enexperiental prototypes. De kerngedachte bij deze technieken is dat de betekenis voor de eindgebruiker, gepresenteerd in een visuele en verbale heldere taal, richting geeft aan het gehele ontwerpproces. Het zich kunnen inleven in de gebruiker is hiervoor een randvoorwaarde. Het perspectief van de gebruiker vormt als het ware een platform voor alle betrokken partijen, waar mogelijke drempels en miscommunicatie die door vakjargon of monodisciplinair denken ontstaan, worden vermeden. De focus op de eindgebruiker geeft niet alleen richting aan het ontwerp- en ontwikkkelproces, maar geeft ook de samenwerking en communicatie tussen de verschillende partijen vorm.</p>",
 		speaker: {
 			firstname: "Ingrid",
@@ -62,6 +68,7 @@
 	{
 		title: "Cognitive Robotics",
 		slot: 5,
+    time: "14:15 - 15:15",
 		description: "<p>Crucial aspects of human cognition are our abilities to selectively focus attention torelevant objects among the vast amount of stimuli in our immediate environment andto control our actions towards these objects in such a way we eventually reach ourgoals. Clearly, object perception, action planning and goals need to align in orderto successfully interact with the world. This is the case for humans as well as forartificial cognitive systems, such as robots.In my research I focus on the theoretical underpinnings and computationalmechanisms that underlie this alignment. As it appears, the interaction betweenperception and action planning is greatly determined by automatic processes (i.e.,out of our cognitive control). However, the subjective interpretation of the task/goalcontext can bias these processes in such a way that our behavior is a result of thedynamic interplay between controlled and automatic influences. Indeed, we do feel incontrol of our behavior, most of the time…In this talk I will present a neurally inspired, computational architecture(‘HiTEC’) that enables the modeling of a variety of perception-action related,behavioral experiments. It is my conviction that computational models can contributeto a better understanding of the mechanisms underlying cognition and that theseinsights can further advance our ability to successfully devise intelligent and useful robots.</p>",
 		speaker: {
 			firstname: "Pascal",
@@ -73,6 +80,7 @@
 	{
 		title: "Smarter Planet",
 		slot: 6,
+    time: "15:30 - 16:30",
 		description: "<p>De strategie van IBM luidt \"Smarter Planet\". De ogenschijnlijke eenvoud van deze twee woorden bedriegt. Want om een Smarter Planet te realiseren zijn er nog wat hordes te nemen. Als eerste wordt uitgelegd wat we onder Smarter Planet verstaan. Wat de miljarden sensoren, apparaten en gadgets in staat zijn te doen als ze verbonden met elkaar zijn. Hoe gaan de IT afdelingen met deze nieuwe vorm van data om, welke software en algoritmen zijn daar voor nodig en hoe reageren bedrijven met hun rigide bedrijfsprocessen daarop.</p><p>In deze levendige presentatie komen deze zaken aan bod en wordt er op een begrijpelijke manier uitgelegd welke uitdagingen er zijn voor organisaties, software ontwikkelaars en ICT afdelingen.</p>",
 		speaker: {
 			firstname: "Frank",
@@ -84,6 +92,7 @@
 	{
 		title: "Agent Based AI in Games",
 		slot: 7,
+    time: "15:30 - 16:30",
 		description: "<p>The behavior of non-player characters (NPCs) in game environments is partly controlled by decision making logic implemented using Artificial Intelligence (AI) techniques. Whereas AI in other application fields is typically concerned with optimal decisions and expert behavior, its role in games is to entertain the player. Because of this, there is a bigger emphasis on believability, understandability and “perceived fairness” of the NPCs behavior. The talk presents various algorithms and tricks used in creating game play and shows that AI techniques originally created to achieve optimal decisions can be tailored to create fun.</p>",
 		speaker: {
 			firstname: "Remco",
@@ -95,6 +104,7 @@
   {
     title: "Drinks",
     slot: 92,
+    time: "16:30 - ",
     description: ""
   }
 ]}

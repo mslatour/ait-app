@@ -20,6 +20,7 @@ Ext.define('app.model.Lecture', {
 	config: {
 		title: null,		// Title of the lecture (String)
 		slot: null,			// Slot number (0-7)
+		time: null,			// Time slot
 		description: null,	// Short description of the lecture (String)
 		speaker: null,		// Reference to the speaker (Speaker)
 	},
@@ -37,7 +38,8 @@ Ext.define('app.model.Lecture', {
 	 *********************************************/
 	fields: [
 		{ name: 'title', type: 'string' },
-    	{ name: 'slot',  type: 'int' },
+    { name: 'slot',  type: 'int' },
+    { name: 'time',  type: 'string' },
 		{ name: 'description', type: 'string' },
 		{ name: 'speaker', type: 'app.model.Speaker'}
 	],
@@ -57,8 +59,7 @@ Ext.define('app.model.Lecture', {
 	applySpeaker: function(speaker){
 		return Ext.create('app.model.Speaker', speaker);
 	},
-	
-	
+		
 	proxy: {
 		type: "ajax",
 		url: "static/content/lectures.json",
