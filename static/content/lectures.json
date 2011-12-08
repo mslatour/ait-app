@@ -29,7 +29,7 @@
 			firstname: "Frank",
 			surname: "Nack",
 			affiliation: "University of Amsterdam",
-			description: "<p>Dr. Frank Nack is tenure assistant professor at the Information and Language Processing Systems group (ILPS) of the Informatics Institute of the University of Amsterdam (UvA).</p><p>The main thrust of his research is on representation, retrieval and reuse of media in hypermedia systems; context and process aware media knowledge spaces; representation and adaptation of experiences; hypermedia systems that enhance human communication and creativity; interactive storytelling; computational applications of media theory & semiotics; AI and film (semantics, semiotics, perception) ; and computational humour theory. He has published more than 100 papers on these topics.</p>"
+			description: "<p>Dr. Frank Nack is tenure assistant professor at the Information and Language Processing Systems group (ILPS) of the Informatics Institute of the University of Amsterdam (UvA).</p><p>The main thrust of his research is on representation, retrieval and reuse of media in hypermedia systems; context and process aware media knowledge spaces; representation and adaptation of experiences; hypermedia systems that enhance human communication and creativity; interactive storytelling; computational applications of media theory &amp; semiotics; AI and film (semantics, semiotics, perception) ; and computational humour theory. He has published more than 100 papers on these topics.</p>"
 		}
 	},
 	{
@@ -43,6 +43,11 @@
 			description: "Shimon Whiteson an assistant professor at the Informatics Institute at the University of Amsterdam, in the Intelligent Autonomous Systems group.  His research is primarily focused on single- and multi-agent decision-theoretic planning and learning, especially reinforcement learning and stochastic optimization methods such as neuroevolution."
 		}
 	},
+  {
+    title: "Break",
+    slot: 91,
+    description: ""
+  },
 	{
 		title: "Mensgerichte aanpak in innovatie",
 		slot: 4,
@@ -86,5 +91,10 @@
 			affiliation: "Guerrilla Games",
 			description: "<p>For the last 9 years, Remco Straatman has been Lead Artificial Intelligence Development at Guerrilla, a Sony Computer Entertainment Studio that creates games for the various PlayStation platforms. His team has created award winning AI for games such as Killzone:Liberation, Killzone 2 and Killzone 3. Remco's goal is to enhance the entertainment value of Guerrilla's games by creating believable, interactive and challenging non-player characters.</p>"
 		}
-	}
+	},
+  {
+    title: "Drinks",
+    slot: 92,
+    description: ""
+  }
 ]}

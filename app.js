@@ -9,48 +9,33 @@ Ext.application({
 			fullscreen: true,
 			items: [
 				{
-					title: 'Home',
-					iconCls: 'home',
-					html: 'Welcome'
-				},
-				{
-					title: 'home2',
-					iconcls: 'home',
-					html: 'Welcome2'
-				},
-				{
-					title: 'List',
+					title: 'Schedule',
 					iconcls: 'home',
 					xtype: "list",
 					store: 'lectureStore',
-	/*				store: {
-					fields: ['firstname','surname'],
-						data: [
-							{ firstname: "John", surname: "Smith"},
-							{ firstname: "Mary", surname: "Wistletoe"},
-							{ firstname: "Sam", surname: "Cook"},
-							{ firstname: "Paul", surname: "Mayer"}
-						]
-					},*/
 					itemTpl: 'Lecture: {title}'
-				}
-			]
-/*			items: [
+				},
 				{
-					xtype: "list",
-					store: {
-					fields: ['firstname'],
-						data: [
-							{ firstname: "John"},
-							{ firstname: "Mary"},
-							{ firstname: "Sam"},
-							{ firstname: "Paul"}
-						]
-					},
-					itemTpl: 'Name: {name}'
+					title: 'Contact',
+					iconCls: 'home',
+					html: 'Contact information'
+				},
+				{
+					title: 'Events',
+					iconcls: 'home',
+					html: 'Upcoming Events'
+				},
+				{
+					title: 'Sponsors',
+					iconcls: 'home',
+					html: 'Our sponsors'
+				},
+				{
+					title: 'Vacancies',
+					iconcls: 'home',
+					html: 'Job and internship opportunities.'
 				}
 			]
-		*/
 		});
 	}
 });
