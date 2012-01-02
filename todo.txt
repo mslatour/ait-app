@@ -1,0 +1,37 @@
+8 december
+-----------
+1) Implementatie van Schedule. Gebruik makend van list (auto populate), xtemplates, grouping en events. [Chiel]
+2) Auto-parse speaker data from store proxy. [Sander]
+4) Lecture details page [Sander+Chiel]
+
+==================
+TODO:
+
+deliverables:
+	menubalk
+
+	schedule -> lineup/talk (lezing info)
+
+	about/contact [beschrijving/ @mail maps tel]
+
+	events -> een of andere calendar
+
+	sponsors
+
+	vacatures/stage/jobs
+
+
+work method:
+	requirements
+	feedback congres
+	concept/design
+	feedback
+
+	implementeren dev\
+	push naar testing |
+	test in simulator /
+
+	push naar production
+
+NEXT TIME IN AIT-APP 5 december:
+	schedule & menu in beta (testing)
