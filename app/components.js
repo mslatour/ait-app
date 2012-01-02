@@ -52,7 +52,13 @@ function init_components(){
               COMP_SCHEDULE_LIST.deselect(
                 COMP_SCHEDULE_LIST.getLastSelected()
               );
+              COMP_TAB_SCHEDULE.getLayout().getAnimation().setReverse(
+                true
+              );
               COMP_TAB_SCHEDULE.setActiveItem(0)
+              COMP_TAB_SCHEDULE.getLayout().getAnimation().setReverse(
+                false
+              );
             }
           }
         ]
@@ -64,7 +70,13 @@ function init_components(){
   COMP_TAB_SCHEDULE = Ext.create('Ext.Panel', {
     title: 'Schedule',
     iconCls: 'time',
-    layout: 'card',
+    layout: {
+      type: 'card',
+      animation: {
+          type: 'slide',
+          direction: 'left'
+      }
+    },
     cardSwitchAnimation: 'slide',
     items: [
       COMP_SCHEDULE_LIST,
