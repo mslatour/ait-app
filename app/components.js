@@ -77,7 +77,6 @@ function init_components(){
           direction: 'left'
       }
     },
-    cardSwitchAnimation: 'slide',
     items: [
       COMP_SCHEDULE_LIST,
       COMP_SCHEDULE_DETAILS
