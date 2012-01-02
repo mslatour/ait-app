@@ -24,11 +24,7 @@ Ext.application({
           iconCls: 'info',
           html: 'Contact information'
         },
-        {
-          title: 'Events',
-          iconCls: 'bookmarks',
-          html: 'Upcoming Events'
-        },
+        COMP_TAB_EVENTS,
         {
           title: 'Sponsors',
           iconCls: 'favorites',

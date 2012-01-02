@@ -1,12 +1,26 @@
 { events: [
   {
-    title: 'AWESOME IT 2012',
-    date: '13/04/2012',
-    description: "<p>The second edition of the Amsterdam Science Education Symposium about Man and Information Technology: The Future Edition. (A.W.E.S.O.M.E. I.T.: The Future Edtion).</p><p>This conference will be about the interaction between the digital and physical world and how they influence our future. Examples of subjects that will be discussed are: cybernetics, alternative computing, rescue robots, autonomous cars, interactive advertisement andlanguage processing in robot-human interaction.</p>",
-    url: 'http://www.awesomeit.nl',
+    title: "AWESOME IT 2012",
+    date: "13/04/2012",
+    description: "<p>The second edition of the Amsterdam Science Education Symposium about Man and Information Technology: The Future Edition. (A.W.E.S.O.M.E. I.T.: The Future Edtion).</p><p>This conference will be about the interaction between the digital and physical world and how they influence our future. Examples of subjects that will be discussed are: cybernetics, alternative computing, rescue robots, autonomous cars, interactive advertisement and language processing in robot-human interaction.</p>",
+    url: "http://www.awesomeit.nl",
     host: {
       name: "Studievereniging Informatiewetenschappen Amsterdam",
-      description: "<p>The student association representing all computer science related bachelor and master students of the University of Amsterdam</p>"
+      description: "<p>The student association representing all computer science related bachelor and master students of the University of Amsterdam</p>",
+      url: "http://www.svia.nl",
+      email: "congres@svia.nl"
+    }
+  },
+  {
+    title: "paReis 2012",
+    date: "01/05/2012",
+    description: "<p>Dit jaar zal de studiereis van via 2012 naar Parijs gaan: paReis dus!</p><p>In week 18, van 1-7 mei, zullen we met een afvaardiging van via de ICT wereld van Parijs onveilig maken. We zullen reizen per bus en slapen in een hostel in deze hoofdstad. De kosten zullen rond de 175 euro bedragen. Wil je zeker zijn van een plekje? Kijk dan snel op de website!</p>",
+    url: "http://www.svia.nl/activiteiten/studiereis-2012/",
+    host: {
+      name: "Studievereniging Informatiewetenschappen Amsterdam",
+      description: "<p>The student association representing all computer science related bachelor and master students of the University of Amsterdam</p>",
+      url: "http://www.svia.nl",
+      email: "actie@svia.nl"
     }
   }
 ]}
