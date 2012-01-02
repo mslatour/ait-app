@@ -1,0 +1,12 @@
+{ events: [
+  {
+    title: 'AWESOME IT 2012',
+    date: '13/04/2012',
+    description: "<p>The second edition of the Amsterdam Science Education Symposium about Man and Information Technology: The Future Edition. (A.W.E.S.O.M.E. I.T.: The Future Edtion).</p><p>This conference will be about the interaction between the digital and physical world and how they influence our future. Examples of subjects that will be discussed are: cybernetics, alternative computing, rescue robots, autonomous cars, interactive advertisement andlanguage processing in robot-human interaction.</p>",
+    url: 'http://www.awesomeit.nl',
+    host: {
+      name: "Studievereniging Informatiewetenschappen Amsterdam",
+      description: "<p>The student association representing all computer science related bachelor and master students of the University of Amsterdam</p>"
+    }
+  }
+]}
