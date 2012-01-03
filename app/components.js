@@ -173,8 +173,8 @@ function init_components(){
                 "</div>"+
                 "<div class='contact'>"+
                 "<address>"+
-                "<span class='name'>AWESOME IT</span>"+
-                "<span class='email'>congres@svia.nl</span>"+
+                "<span class='name'>AWESOME IT</span><br />"+
+                "<span class='email'>congres@svia.nl</span><br />"+
                 "<label>Office:</label><br />"+
                 "Kamer A0.10<br z>"+
                 "Science Park 904<br />"+

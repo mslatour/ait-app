@@ -14,3 +14,18 @@
 .host div {
 	padding-top: 10px;
 }
+
+address {
+	margin-left: 1em;
+}
+
+address .name {
+	margin-left: -1em;
+	font-size: large;
+	font-weight: bold;
+}
+
+address label {
+	font-weight: bold;
+	margin: 10px;
+}
