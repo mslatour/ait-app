@@ -150,13 +150,11 @@ function init_components(){
   COMP_TAB_CONTACT = Ext.create('Ext.Panel',{
           title: 'Contact',
           iconCls: 'info',
+          scrollable: {
+            direction: 'vertical'
+          },
           html: "<div class='host'>"+
-                "<div class='description'>"+
-                "AWESOME IT is organized by VIA, the student association"+
-                " for computer science and AI related bachelor and master"+
-                " students of the University of Amsterdam."+
-                "</div>"+
-                "<div class='members'>"+
+                /*"<div class='members'>"+
                 "<label>"+
                 "This year, the organization of AWESOME IT is conducted by:"+
                 "</label>"+
@@ -170,11 +168,15 @@ function init_components(){
                   "<li>Tim Doolan</li>"+
                   "<li>Sander Latour</li>"+
                 "</ul>"+
-                "</div>"+
+                "</div>"+*/
                 "<div class='contact'>"+
                 "<address>"+
                 "<span class='name'>AWESOME IT</span><br />"+
-                "<span class='email'>congres@svia.nl</span><br />"+
+                "<span class='email'>"+
+                "<a href='mailto:congres@svia.nl'>"+
+                "congres@svia.nl"+
+                "</a>"+
+                "</span><br />"+
                 "<label>Office:</label><br />"+
                 "Kamer A0.10<br z>"+
                 "Science Park 904<br />"+
@@ -184,6 +186,11 @@ function init_components(){
                 "Postbus 94216<br />"+
                 "1090 GE Amsterdam"+
                 "</address>"+
+                "</div>"+
+                "<div class='description'>"+
+                "AWESOME IT is organized by VIA, the student association"+
+                " for computer science and AI related bachelor and master"+
+                " students of the University of Amsterdam."+
                 "</div>"+
                 "</div>"
   });
