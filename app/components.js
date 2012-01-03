@@ -172,18 +172,18 @@ function init_components(){
                 "</ul>"+
                 "</div>"+
                 "<div class='contact'>"+
+                "<address>"+
                 "<span class='name'>AWESOME IT</span>"+
                 "<span class='email'>congres@svia.nl</span>"+
-                "<div class='address'>"+
-                "<label>Office:</label>"+
-                "<p>Kamer A0.10</p>"+
-                "<p>Science Park 904</p>"+
-                "<p>1098 XH Amsterdam</p>"+
-                "<label>Postal address</label>"+
-                "<p>\"Studievereniging VIA\"</p>"+
-                "<p>Postbus 94216</p>"+
-                "<p>1090 GE Amsterdam</p>"+
-                "</div>"+
+                "<label>Office:</label><br />"+
+                "Kamer A0.10<br z>"+
+                "Science Park 904<br />"+
+                "1098 XH Amsterdam<br />"+
+                "<label>Postal address</label><br />"+
+                "\"Studievereniging VIA\"<br />"+
+                "Postbus 94216<br />"+
+                "1090 GE Amsterdam"+
+                "</address>"+
                 "</div>"+
                 "</div>"
   });
