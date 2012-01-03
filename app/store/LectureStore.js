@@ -6,6 +6,7 @@ Ext.create('Ext.data.Store', {
     { name: 'slot',  type: 'int' },
     { name: 'time',  type: 'string' },
     { name: 'description', type: 'string' },
+    { name: 'url', type: 'string' },
     { name: 'speaker', type: 'app.model.Speaker'}
   ],
   getGroupString: function(record){

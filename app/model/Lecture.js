@@ -22,7 +22,8 @@ Ext.define('app.model.Lecture', {
 		slot: null,			// Slot number (0-7)
 		time: null,			// Time slot
 		description: null,	// Short description of the lecture (String)
-		speaker: null,		// Reference to the speaker (Speaker)
+    url: null       // URL to the website of the speaker (String)
+		speaker: null,	// Reference to the speaker (Speaker)
 	},
 
 	/**********************************************
@@ -41,6 +42,7 @@ Ext.define('app.model.Lecture', {
     { name: 'slot',  type: 'int' },
     { name: 'time',  type: 'string' },
 		{ name: 'description', type: 'string' },
+		{ name: 'url', type: 'string' },
 		{ name: 'speaker', type: 'app.model.Speaker'}
 	],
 
