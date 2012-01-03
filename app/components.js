@@ -24,27 +24,14 @@ function init_components(){
   });
 
   COMP_SCHEDULE_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    tpl: '<div class="lecture-details">' +
-           '<span class="title">{title}</span>' +
-           '<span class="time">{time}</span>' +
-           '<div class="description">{description}</div>'+
-           '<div class="speaker">' +
-             '<span class="name">' +
-               '{speaker.firstname} {speaker.surname}' + 
-             '</span>' +
-             '<span class="affiliation">' + 
-               '{speaker.affiliation}' + 
-             '</span>' +
-             '<div class="description">' +
-               '{speaker.description}' + 
-             '</div>' +
-           '</div>' +
-        '</div>'
+    tpl: TPL_SCHEDULE_DETAILS
   });
 
   COMP_SCHEDULE_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
-    scroll: 'vertical',
+    scrollable: {
+      direction: 'vertical'
+    },
     items: [
       {
         docked : 'top',
@@ -133,7 +120,9 @@ function init_components(){
 
   COMP_EVENTS_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
-    scroll: 'vertical',
+    scrollable: {
+      direction: 'vertical'
+    },
     items: [
       {
         docked : 'top',

@@ -20,7 +20,7 @@
 			firstname: "Remko",
 			surname: "Scha",
 			affiliation: "Universiteit van Amsterdam / Institute for Artificial Art Amsterdam",
-			desciption: "<p>Remko Scha studeerde Technische Natuurkunde aan de TUE. Hij leidde AI-projecten bij Philips' Research Labs te Eindhoven en BBN Laboratorieste Cambridge, MA, en was tot zijn recente emeritaat Hoogleraar Computerlinguïstiek aan de Universiteit van Amsterdam. Remko Scha ontwikkelde een taalverwerkings-theorie (\"Data-Oriented Parsing\"), construeerde een automatische gitaar-band (\"The Machines\"), en ontwierp een beeldgeneratie-algoritme (\"Artificial\").</p>"
+			description: "<p>Remko Scha studeerde Technische Natuurkunde aan de TUE. Hij leidde AI-projecten bij Philips' Research Labs te Eindhoven en BBN Laboratorieste Cambridge, MA, en was tot zijn recente emeritaat Hoogleraar Computerlinguïstiek aan de Universiteit van Amsterdam. Remko Scha ontwikkelde een taalverwerkings-theorie (\"Data-Oriented Parsing\"), construeerde een automatische gitaar-band (\"The Machines\"), en ontwierp een beeldgeneratie-algoritme (\"Artificial\").</p>"
 		}
 	},
 	{

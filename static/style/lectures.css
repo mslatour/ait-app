@@ -1,3 +1,33 @@
 .lecture-details {
   font-size: 12px;
+  padding: 10px 5px 10px 5px;
+}
+
+.lecture-details .title{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lecture-details .time{
+  display: block;
+}
+
+.lecture-details .description p{
+  margin: 10px 0 0 0;
+}
+
+.lecture-details .speaker {
+  border-top: thin solid #000;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.lecture-details .speaker .name {
+  display: block;
+  font-size: 16px;
+}
+
+.lecture-details .speaker .affiliation {
+  display: block;
 }
