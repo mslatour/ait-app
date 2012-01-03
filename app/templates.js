@@ -23,16 +23,16 @@ var TPL_EVENTS_DETAILS = new Ext.XTemplate(
      '<span class="title">{title}</span>',
      '<span class="date">{date}</span>',
      '<div class="description">{description}</div>'+
-     '<div class="url">{url}</div>'+
+     '<div class="url"><a href="{url}">{url}</a></div>'+
      '<div class="host">',
        '<span class="name">',
          '{host.name}', 
        '</span>',
        '<span class="url">', 
-         '{host.url}', 
+         '<a href="{host.url}">{host.url}</a>', 
        '</span>',
        '<span class="email">', 
-         '{host.email}', 
+         '<a href="mailto:{host.email}">{host.email}</a>', 
        '</span>',
        '<div class="description">',
          '{host.description}', 

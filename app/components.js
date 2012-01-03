@@ -159,7 +159,7 @@ function init_components(){
                 "<div class='members'>"+
                 "<label>"+
                 "This year, the organization of AWESOME IT is conducted by:"+
-                "</span>"+
+                "</label>"+
                 "<ul>"+
                   "<li>Camiel Verschoor</li>"+
                   "<li>Judith Borghouts</li>"+
