@@ -96,26 +96,7 @@ function init_components(){
   });
 
   COMP_EVENTS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    tpl: '<div class="event-details">' +
-           '<span class="title">{title}</span>' +
-           '<span class="date">{time}</span>' +
-           '<div class="description">{description}</div>'+
-           '<div class="url">{description}</div>'+
-           '<div class="host">' +
-             '<span class="name">' +
-               '{host.name}' + 
-             '</span>' +
-             '<span class="url">' + 
-               '{host.url}' + 
-             '</span>' +
-             '<span class="email">' + 
-               '{host.email}' + 
-             '</span>' +
-             '<div class="description">' +
-               '{host.description}' + 
-             '</div>' +
-           '</div>' +
-        '</div>'
+    tpl: TPL_EVENTS_DETAILS
   });
 
   COMP_EVENTS_DETAILS = Ext.create('Ext.Panel', {
