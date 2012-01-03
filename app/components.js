@@ -146,4 +146,45 @@ function init_components(){
       COMP_EVENTS_DETAILS
     ]
   });
+
+  COMP_TAB_CONTACT = Ext.create('Ext.Panel',{
+          title: 'Contact',
+          iconCls: 'info',
+          html: "<div class='host'>"+
+                "<div class='description'>"+
+                "AWESOME IT is organized by VIA, the student association"+
+                " for computer science and AI related bachelor and master"+
+                " students of the University of Amsterdam."+
+                "</div>"+
+                "<div class='members'>"+
+                "<label>"+
+                "This year, the organization of AWESOME IT is conducted by:"+
+                "</span>"+
+                "<ul>"+
+                  "<li>Camiel Verschoor</li>"+
+                  "<li>Judith Borghouts</li>"+
+                  "<li>Micheal Cabot</li>"+
+                  "<li>Merel de Groot</li>"+
+                  "<li>Sander Nugteren</li>"+
+                  "<li>Duncan ten Velthuis</li>"+
+                  "<li>Tim Doolan</li>"+
+                  "<li>Sander Latour</li>"+
+                "</ul>"+
+                "</div>"+
+                "<div class='contact'>"+
+                "<span class='name'>AWESOME IT</span>"+
+                "<span class='email'>congres@svia.nl</span>"+
+                "<div class='address'>"+
+                "<label>Office:</label>"+
+                "<p>Kamer A0.10</p>"+
+                "<p>Science Park 904</p>"+
+                "<p>1098 XH Amsterdam</p>"+
+                "<label>Postal address</label>"+
+                "<p>\"Studievereniging VIA\"</p>"+
+                "<p>Postbus 94216</p>"+
+                "<p>1090 GE Amsterdam</p>"+
+                "</div>"+
+                "</div>"+
+                "</div>"
+  });
 }

@@ -19,11 +19,7 @@ Ext.application({
       },
       items: [
         COMP_TAB_SCHEDULE,
-        {
-          title: 'Contact',
-          iconCls: 'info',
-          html: 'Contact information'
-        },
+        COMP_TAB_CONTACT,
         COMP_TAB_EVENTS,
         {
           title: 'Sponsors',
