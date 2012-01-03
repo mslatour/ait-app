@@ -6,7 +6,7 @@ Ext.application({
 	models: ['app.model.Lecture','app.model.Speaker'],
 	launch: function(){ 
     init_components();
-
+    
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
@@ -33,5 +33,17 @@ Ext.application({
         }
       ]
     });
+   
+    // Fix: links were not clickable on mobile phones
+    COMP_MAIN_MENU.body.on(
+      'tap', 
+      function(e, t) {
+        document.location.href = t.href;
+      }, 
+      null, 
+      {
+        delegate: 'a'
+      }
+    );
 	}
 });
