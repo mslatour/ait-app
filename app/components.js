@@ -44,6 +44,7 @@ function init_components(){
 
   COMP_SCHEDULE_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
+    scroll: 'vertical',
     items: [
       {
         docked : 'top',
@@ -132,6 +133,7 @@ function init_components(){
 
   COMP_EVENTS_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
+    scroll: 'vertical',
     items: [
       {
         docked : 'top',
