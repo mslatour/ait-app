@@ -22,7 +22,6 @@ Ext.define('app.model.Lecture', {
 		slot: null,			// Slot number (0-7)
 		time: null,			// Time slot
 		description: null,	// Short description of the lecture (String)
-    url: null       // URL to the website of the speaker (String)
 		speaker: null,	// Reference to the speaker (Speaker)
 	},
 
