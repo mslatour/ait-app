@@ -1,8 +1,5 @@
 var TPL_SCHEDULE_DETAILS = new Ext.XTemplate(
   '<div class="lecture-details">',
-  '<span class="title">{title}</span>',
-  '<span class="time">{time}</span>',
-  '<div class="description">{description}</div>',
     '<div class="speaker">',
       '<span class="name">',
         '{speaker.firstname} {speaker.surname}', 
@@ -14,10 +11,32 @@ var TPL_SCHEDULE_DETAILS = new Ext.XTemplate(
         '{speaker.description}', 
       '</div>',
     '</div>',
+  '<span class="title">{title}</span>',
+  '<span class="time">{time}</span>',
+  '<div class="description">{description}</div>',
   '</div>',
-  {
-    notEmpty: function(string){
-      return string != undefined && string != "";
-    }
-  }
+  {}
+);
+
+var TPL_EVENTS_DETAILS = new Ext.XTemplate(
+  '<div class="event-details">',
+     '<span class="title">{title}</span>',
+     '<span class="date">{time}</span>',
+     '<div class="description">{description}</div>'+
+     '<div class="url">{description}</div>'+
+     '<div class="host">',
+       '<span class="name">',
+         '{host.name}', 
+       '</span>',
+       '<span class="url">', 
+         '{host.url}', 
+       '</span>',
+       '<span class="email">', 
+         '{host.email}', 
+       '</span>',
+       '<div class="description">',
+         '{host.description}', 
+       '</div>',
+     '</div>',
+  '</div>'
 );
