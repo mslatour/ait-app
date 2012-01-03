@@ -16,11 +16,11 @@
 		slot: 1,
     time: "11:00 - 12:00",
 		description: "<p>Beeldende kunst wordt steeds vaker met behulp van de computer gemaakt; pen en penseel worden langzamerhand vervangen door Illustrator,Photoshop en AutoCAD. Maar er is ook computerkunst in een striktere betekenis van dat woord: kunst die niet met de computer, maar door de computer gemaakt wordt. Bij deze \"algoritmische kunst\" is de menselijke kunstenaar nog slechts een producer achter de schermen. Hij maakt geen specifieke beelden, maar ontwerpt stijlen of principes, en demonstreert die door middel van computerprogramma's die vol-automatisch oneindig grote oeuvres genereren.</p><p>De generatieve linguïstiek was een belangrijke inspiratiebron voor de algoritmische kunst. Abstracte kunst- en ontwerpstijlen kunnen beschouwd worden als oneindige verzamelingen van complexe symbolen, en men kan proberen zulke verzamelingen d.m.v. formele grammatica's te karakteriseren. Zelfs kan men, naar analogie van Noam Chomsky's Universal Grammar, de mogelijkheid postuleren van een alles-omvattende meta-grammatica voor visuele talen. Zo'n meta-grammatica zou het ultieme postmodernistische kunstwerk zijn; hij zou het mogelijk maken om naar willekeur alle mogelijke beelden te genereren. De totstandkoming van de volgende fase in de kunstgeschiedenis is dan een technisch-wetenschappelijke uitdaging geworden.</p><p>Deze voordracht bespreekt de stand van zaken in dit onderzoekstraject. Aan de orde komen o.m. de technieken die totnutoe gebruikt worden (vaak ontleend aan Kunstmatige Intelligentie of Artificial Life), en de relatie met kunstgeschiedenis en waarnemingspsychologie.</p>",
-    url: "http://www.iaaa.nl/",
 		speaker: {
 			firstname: "Remko",
 			surname: "Scha",
 			affiliation: "Universiteit van Amsterdam / Institute for Artificial Art Amsterdam",
+      url: "http://www.iaaa.nl/",
 			description: "<p>Remko Scha studeerde Technische Natuurkunde aan de TUE. Hij leidde AI-projecten bij Philips' Research Labs te Eindhoven en BBN Laboratorieste Cambridge, MA, en was tot zijn recente emeritaat Hoogleraar Computerlinguïstiek aan de Universiteit van Amsterdam. Remko Scha ontwikkelde een taalverwerkings-theorie (\"Data-Oriented Parsing\"), construeerde een automatische gitaar-band (\"The Machines\"), en ontwierp een beeldgeneratie-algoritme (\"Artificial\").</p>"
 		}
 	},
