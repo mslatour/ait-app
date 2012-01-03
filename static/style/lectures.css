@@ -1,11 +1,11 @@
 .lecture-details {
-  font-size: 12px;
+  font-size: medium;
   padding: 10px 5px 10px 5px;
 }
 
 .lecture-details .title{
   display: block;
-  font-size: 16px;
+  font-size: large;
   font-weight: bold;
 }
 
@@ -25,7 +25,7 @@
 
 .lecture-details .speaker .name {
   display: block;
-  font-size: 16px;
+  font-size: large;
 }
 
 .lecture-details .speaker .affiliation {
