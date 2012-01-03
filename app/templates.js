@@ -21,9 +21,9 @@ var TPL_SCHEDULE_DETAILS = new Ext.XTemplate(
 var TPL_EVENTS_DETAILS = new Ext.XTemplate(
   '<div class="event-details">',
      '<span class="title">{title}</span>',
-     '<span class="date">{time}</span>',
+     '<span class="date">{date}</span>',
      '<div class="description">{description}</div>'+
-     '<div class="url">{description}</div>'+
+     '<div class="url">{url}</div>'+
      '<div class="host">',
        '<span class="name">',
          '{host.name}', 
