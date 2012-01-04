@@ -1,6 +1,5 @@
 Ext.create('Ext.data.Store', {
   storeId: 'sponsorStore',
-  model: 'app.model.Company',
   fields: [
     { name: 'name', type: 'string' },
     { name: 'group', type: 'string' },

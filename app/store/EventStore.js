@@ -1,6 +1,5 @@
 Ext.create('Ext.data.Store', {
   storeId: 'eventStore',
-  model: 'Event',
   fields: [
     { name: 'title', type: 'string' },
     { name: 'date',  type: 'string' },
