@@ -21,11 +21,7 @@ Ext.application({
         COMP_TAB_SCHEDULE,
         COMP_TAB_CONTACT,
         COMP_TAB_EVENTS,
-        {
-          title: 'Sponsors',
-          iconCls: 'favorites',
-          html: 'Our sponsors'
-        },
+        COMP_TAB_SPONSORS,
         {
           title: 'Vacancies',
           iconCls: 'team',
