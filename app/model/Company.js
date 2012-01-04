@@ -11,10 +11,11 @@ Ext.define('app.model.Company', {
 	 * be set using this.initConfig({...}).
 	 *********************************************/
 	config: {
-		name: null,	      // Name of the company (String)
-		description: null,	// Short description about the company (String)
-		url: null,		    // URL to the website of the company (String)
-		email: null,	    // Email of the company (String)
+		name: null,	        // Name of the company (String)
+		group: null,	      // Sponsor group of the company (String)
+		description: null,  // Short description about the company (String)
+		url: null,		      // URL to the website of the company (String)
+		email: null,	      // Email of the company (String)
 	},
 
 	/**********************************************
