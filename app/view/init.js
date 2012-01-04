@@ -8,5 +8,5 @@ function init_components(){
   init_schedule_components();
   init_contact_components();
   init_events_components();
-  //init_sponsor_components();
+  init_sponsor_components();
 }
