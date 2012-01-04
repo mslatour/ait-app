@@ -25,8 +25,8 @@ var TPL_EVENTS_DETAILS = new Ext.XTemplate(
   '<div class="event-details">',
      '<span class="title">{title}</span>',
      '<span class="date">{date}</span>',
-     '<div class="description">{description}</div>'+
-     '<div class="url"><a href="{url}">{url}</a></div>'+
+     '<div class="description">{description}</div>',
+     '<div class="url"><a href="{url}">{url}</a></div>',
      '<div class="host">',
        '<span class="name">',
          '{host.name}', 
@@ -41,5 +41,16 @@ var TPL_EVENTS_DETAILS = new Ext.XTemplate(
          '{host.description}', 
        '</div>',
      '</div>',
+  '</div>'
+);
+
+var TPL_SPONSOR_DETAILS = new Ext.XTemplate(
+  '<div class="sponsor-details">',
+     '<span class="name">{title}</span>',
+     '<div class="description">{description}</div>',
+     '<span class="url"><a href="{url}">{url}</a></span>',
+     '<span class="email">', 
+       '<a href="mailto:{email}">{email}</a>', 
+     '</span>',
   '</div>'
 );

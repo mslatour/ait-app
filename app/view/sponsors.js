@@ -20,7 +20,7 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    tpl: TPL_SPONSORS_DETAILS
+    tpl: TPL_SPONSOR_DETAILS
   });
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
