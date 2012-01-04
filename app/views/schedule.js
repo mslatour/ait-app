@@ -54,4 +54,20 @@ function init_schedule_components(){
       COMP_SCHEDULE_DETAILS_CONTENT
     ]
   });
+
+  COMP_TAB_SCHEDULE = Ext.create('Ext.Panel', {
+    title: 'Schedule',
+    iconCls: 'time',
+    layout: {
+      type: 'card',
+      animation: {
+          type: 'slide',
+          direction: 'left'
+      }
+    },
+    items: [
+      COMP_SCHEDULE_LIST,
+      COMP_SCHEDULE_DETAILS
+    ]
+  });
 }

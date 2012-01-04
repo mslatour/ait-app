@@ -4,7 +4,7 @@ var COMP_MAIN_MENU, COMP_TAB_SCHEDULE, COMP_TAB_CONTACT, COMP_TAB_EVENTS,
     COMP_SPONSOR_LIST, COMP_SPONSOR_DETAILS, COMP_SPONSOR_DETAILS_CONTENT;
 
 function init_components(){
-  init_schedule_coponents();
+  init_schedule_components();
   init_contact_components();
   init_events_components();
   //init_sponsor_components();
