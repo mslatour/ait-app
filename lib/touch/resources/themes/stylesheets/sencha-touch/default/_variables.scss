@@ -96,7 +96,7 @@ $active-color: darken(saturate($base-color, 55%), 10%) !default;
  * @var {color} $page-bg-color
  * Background color for fullscreen components.
  */
-$page-bg-color: #eee !default;
+$page-bg-color: #000 !default;
 
 /**
  * @var {measurement} $global-row-height
