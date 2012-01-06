@@ -24,25 +24,13 @@ function init_sponsor_components(){
     tpl: TPL_SPONSOR_DETAILS
   });
 
-  COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
-    layout: 'hbox',
-
-    items: [
+  COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Carousel', {
+    item: [
       {
-        flex: 1,
-        html: 'Sponsor details'
+        html: 'Sponsor details 2'
       },
       {
-        xtype: "carousel",
-        flex: 2,
-        item: [
-          {
-            html: 'Sponsor details 2'
-          },
-          {
-            html: 'Sponsor details 2 Follow up'
-          }
-        ]
+        html: 'Sponsor details 2 Follow up'
       }
     ]
   });
