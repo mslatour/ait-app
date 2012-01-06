@@ -14,10 +14,7 @@ function init_sponsor_components(){
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
-      /*  COMP_SPONSORS_DETAILS_CONTENT2.hide();
-        COMP_SPONSORS_DETAILS_CONTENT2.disable();
-        COMP_SPONSORS_DETAILS_CONTENT2.enable();
-        COMP_SPONSORS_DETAILS_CONTENT2.show();*/
+        COMP_SPONSORS_DETAILS_CONTENT2.getLayout().setActiveItem(0);
       },
       scope: COMP_SPONSORS_LIST
     }
@@ -29,6 +26,7 @@ function init_sponsor_components(){
 
   var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
     layout: 'card',
+
     items: [
       {
         title: 'Slot1',
