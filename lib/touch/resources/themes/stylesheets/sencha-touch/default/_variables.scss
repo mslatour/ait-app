@@ -64,8 +64,7 @@ $basic-slider: false !default;
  * @var {color} $base-color
  * The primary color variable from which most elements derive their color scheme.
  */
-//$base-color: #354F6E !default; // Graphite
-$base-color: #FF8A00 !default; // Graphite
+$base-color: #FF8A00 !default;
 
 /**
  * @var {string} $base-gradient
@@ -104,7 +103,9 @@ $page-bg-color: #000 !default;
  */
 $global-row-height: 2.6em !default;
 
+$list-active-color: #FF8A00 !default;
 
 $list-bg-color: #000 !default;
 
 $list-color: #eee !default;
+
