@@ -30,7 +30,14 @@ function init_sponsor_components(){
     items: [
       {
         flex: 1,
-        html: 'Sponsor details 2'
+        xtype: "list",
+        itemTpl: "{item}",
+        data: [
+          { item: "Info" },
+          { item: "Events" },
+          { item: "Vacancies" },
+          { item: "Contact" }
+        ]
       },
       COMP_SPONSORS_DETAILS_CONTENT
     ]
