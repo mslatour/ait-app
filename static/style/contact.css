@@ -4,7 +4,7 @@
 }
 
 .host .description {
-	font-weight: bold;
+	font-size: large;
 }
 
 .host li {
@@ -16,16 +16,16 @@
 }
 
 address {
-	margin-left: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
 address .name {
-	margin-left: -1em;
 	font-size: large;
 	font-weight: bold;
 }
 
 address label {
 	font-weight: bold;
-	margin: 10px;
 }
