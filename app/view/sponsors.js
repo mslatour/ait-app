@@ -14,7 +14,6 @@ function init_sponsor_components(){
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
-        COMP_SPONSORS_DETAILS_CONTENT2.getLayout().setActiveItem(0);
       },
       scope: COMP_SPONSORS_LIST
     }
