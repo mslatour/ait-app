@@ -29,12 +29,20 @@ function init_sponsor_components(){
 
     items: [
       {
-        flex: 2,
+        flex: 1,
         html: 'Sponsor details'
       },
       {
-        flex: 1,
-        html: 'Sponsor details 2'
+        flex: 2,
+        layout: "card",
+        item: [
+          {
+            html: 'Sponsor details 2'
+          },
+          {
+            html: 'Sponsor details 2 Follow up'
+          }
+        ]
       }
     ]
   });
