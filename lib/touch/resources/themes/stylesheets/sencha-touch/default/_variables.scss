@@ -72,7 +72,7 @@ $base-color: #FF8A00 !default; // Graphite
  * The primary gradient variable from which most elements derive their color scheme.
  * @see background-gradient
  */
-$base-gradient: 'matte' !default;
+$base-gradient: 'glossy' !default;
 
 /**
  * @var {color} $alert-color
