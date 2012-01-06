@@ -45,7 +45,7 @@ $list-active-gradient: $base-gradient !default;
  * Background-color for list header rows (in grouped lists).
  */
 //$list-header-bg-color: lighten(saturate($base-color, 10%), 20%) !default;
-$list-header-bg-color: darken($base-color, 20%) !default;
+$list-header-bg-color: darken($base-color, 80%) !default;
 
 /**
  * @var {string} $list-header-gradient
@@ -54,7 +54,7 @@ $list-header-bg-color: darken($base-color, 20%) !default;
  * See {@link Global_CSS#background-gradient background-gradient}.
  */
 //$list-header-gradient: $base-gradient !default;
-$list-header-gradient: #000 !default;
+$list-header-gradient: #FF8A00 !default;
 
 /**
  * @var {measurement} $list-disclosure-size
