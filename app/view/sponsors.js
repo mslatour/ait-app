@@ -14,6 +14,7 @@ function init_sponsor_components(){
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
+        COMP_SPONSORS_DETAILS_CONTENT2.show();
       },
       scope: COMP_SPONSORS_LIST
     }
@@ -28,7 +29,6 @@ function init_sponsor_components(){
     layout: "hbox",
     items: [
       {
-        flex: 1,
         xtype: "list",
         itemTpl: "Item: {item}",
         data: [
