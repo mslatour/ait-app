@@ -13,7 +13,8 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_CONTENT.setData(
           record.items[0].data
         );
-        COMP_TAB_SPONSORS.setActiveItem(1)
+        COMP_TAB_SPONSORS.setActiveItem(1);
+        COMP_TAB_SPONSORS.doLayout();
       },
       scope: COMP_SPONSORS_LIST
     }
@@ -26,9 +27,9 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
-    scrollable: {
-      direction: 'vertical'
-    },
+//    scrollable: {
+//      direction: 'vertical'
+//    },
     items: [
       {
         docked : 'top',
@@ -58,12 +59,12 @@ function init_sponsor_components(){
         items: [
 //          COMP_SPONSORS_DETAILS_CONTENT,
           {
-            title: 'Info',
-            html: 'Info'
+            title: "Info",
+            html: "Information"
           },
           {
-            title: 'Contact',
-            html: 'Contact information'
+            title: "Contact",
+            html: "Contact information"
           }
         ]
       }
