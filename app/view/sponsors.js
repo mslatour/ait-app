@@ -29,7 +29,7 @@ function init_sponsor_components(){
 
     items: [
       {
-        flex: 0,
+        flex: 2,
         html: 'Sponsor details'
       },
       {
