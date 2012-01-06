@@ -4,7 +4,6 @@ function init_sponsor_components(){
    *********************************/
   COMP_SPONSORS_LIST = Ext.create('Ext.List',{
     xtype: 'list',
-    fullscreen: true,
     store: 'sponsorStore',
     itemTpl: '{name}',
     grouped: true,
@@ -30,6 +29,7 @@ function init_sponsor_components(){
 
   var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.TabPanel', {
     tabBarPosition: 'top',
+    layout: "fit",
     items: [
       {
         title: 'Slot1',
