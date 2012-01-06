@@ -58,12 +58,12 @@ function init_sponsor_components(){
         items: [
 //          COMP_SPONSORS_DETAILS_CONTENT,
           {
-            title: 'Info',
-            html: 'Info'
+            title: "Info",
+            html: "Information"
           },
           {
-            title: 'Contact',
-            html: 'Contact information'
+            title: "Contact",
+            html: "Contact information"
           }
         ]
       }
