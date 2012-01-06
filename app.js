@@ -28,9 +28,11 @@ Ext.application({
           iconCls: 'team',
           items: [
             {
+              title: 'Link1',
               html: 'Job and internship opportunities.'
             },
             {
+              title: 'Link2',
               html: 'Job and internship opportunities.2'
             }
           ]
