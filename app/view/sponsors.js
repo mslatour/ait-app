@@ -21,15 +21,14 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    title: 'Info',
     tpl: TPL_SPONSOR_DETAILS
   });
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
-//    scrollable: {
-//      direction: 'vertical'
-//    },
+    scrollable: {
+      direction: 'vertical'
+    },
     items: [
       {
         docked : 'top',
@@ -53,21 +52,7 @@ function init_sponsor_components(){
           }
         ]
       },
-      {
-        xtype: "tabpanel",
-        tabBarPosition: 'top',
-        items: [
-//          COMP_SPONSORS_DETAILS_CONTENT,
-          {
-            title: "Info",
-            html: "Information"
-          },
-          {
-            title: "Contact",
-            html: "Contact information"
-          }
-        ]
-      }
+      COMP_SPONSORS_DETAILS_CONTENT,
     ]
   });
 
