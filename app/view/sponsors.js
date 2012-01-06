@@ -19,18 +19,8 @@ function init_sponsor_components(){
     }
   });
 
-  COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.TabPanel', {
-    tabBarPosition: 'top',
-    items: [
-      {
-        title: 'Info',
-        tpl: TPL_SPONSOR_DETAILS
-      },
-      {
-        title: 'Contact',
-        html: 'Contact information'
-      },
-    ]
+  COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
+    tpl: TPL_SPONSOR_DETAILS
   });
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
@@ -61,7 +51,20 @@ function init_sponsor_components(){
           }
         ]
       },
-      COMP_SPONSORS_DETAILS_CONTENT
+      {
+        xtype: "tabpanel",
+        tabBarPosition: 'top',
+        items: [
+          {
+            title: 'Info',
+            COMP_SPONSORS_DETAILS_CONTENT
+          },
+          {
+            title: 'Contact',
+            html: 'Contact information'
+          },
+        ]
+      }
     ]
   });
 
