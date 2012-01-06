@@ -20,6 +20,7 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
+    title: 'Info',
     tpl: TPL_SPONSOR_DETAILS
   });
 
@@ -55,10 +56,7 @@ function init_sponsor_components(){
         xtype: "tabpanel",
         tabBarPosition: 'top',
         items: [
-          {
-            title: 'Info',
-            COMP_SPONSORS_DETAILS_CONTENT
-          },
+          COMP_SPONSORS_DETAILS_CONTENT,
           {
             title: 'Contact',
             html: 'Contact information'
