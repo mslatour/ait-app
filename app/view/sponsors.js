@@ -27,7 +27,7 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
     layout: "hbox",
-    item: [
+    items: [
       {
         flex: 1,
         html: 'Sponsor details 2'
