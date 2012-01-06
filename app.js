@@ -24,8 +24,16 @@ Ext.application({
         COMP_TAB_SPONSORS,
         {
           title: 'Vacancies',
+          layout: 'accordion',
           iconCls: 'team',
-          html: 'Job and internship opportunities.'
+          items: [
+            {
+              html: 'Job and internship opportunities.'
+            },
+            {
+              html: 'Job and internship opportunities.2'
+            }
+          ]
         }
       ]
     });
