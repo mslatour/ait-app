@@ -4,7 +4,7 @@ function init_sponsor_components(){
    *********************************/
   COMP_SPONSORS_LIST = Ext.create('Ext.List',{
     xtype: 'list',
-    layout: 'fit',
+    fullscreen: true,
     store: 'sponsorStore',
     itemTpl: '{name}',
     grouped: true,
