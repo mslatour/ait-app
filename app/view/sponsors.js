@@ -56,7 +56,11 @@ function init_sponsor_components(){
         xtype: "tabpanel",
         tabBarPosition: 'top',
         items: [
-          COMP_SPONSORS_DETAILS_CONTENT,
+//          COMP_SPONSORS_DETAILS_CONTENT,
+          {
+            title: 'Info',
+            html: 'Info'
+          },
           {
             title: 'Contact',
             html: 'Contact information'
