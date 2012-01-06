@@ -24,7 +24,7 @@ function init_sponsor_components(){
     tpl: TPL_SPONSOR_DETAILS
   });
 
-  var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
+  COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
     layout: 'card',
 
     items: [
