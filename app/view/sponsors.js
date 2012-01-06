@@ -25,15 +25,13 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
-    layout: 'card',
+    layout: 'hbox',
 
     items: [
       {
-        title: 'Slot1',
         html: 'Sponsor details'
       },
       {
-        title: 'Slot2',
         html: 'Sponsor details 2'
       }
     ]
