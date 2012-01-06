@@ -29,9 +29,11 @@ function init_sponsor_components(){
 
     items: [
       {
+        flex: 0,
         html: 'Sponsor details'
       },
       {
+        flex: 1,
         html: 'Sponsor details 2'
       }
     ]
