@@ -13,7 +13,8 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_CONTENT.setData(
           record.items[0].data
         );
-        COMP_TAB_SPONSORS.setActiveItem(1)
+        COMP_TAB_SPONSORS.setActiveItem(1);
+        COMP_TAB_SPONSORS.doLayout();
       },
       scope: COMP_SPONSORS_LIST
     }
