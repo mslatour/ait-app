@@ -30,7 +30,7 @@ function init_sponsor_components(){
       {
         flex: 1,
         xtype: "list",
-        itemTpl: "{item}",
+        itemTpl: "Item: {item}",
         data: [
           { item: "Info" },
           { item: "Events" },
