@@ -24,8 +24,18 @@ function init_sponsor_components(){
     tpl: TPL_SPONSOR_DETAILS
   });
 
-  var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
-    html: 'Sponsor details'
+  var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.TabPanel', {
+    tabBarPosition: 'top',
+    items: [
+      {
+        title: 'Slot1',
+        html: 'Sponsor details'
+      },
+      {
+        title: 'Slot2',
+        html: 'Sponsor details 2'
+      }
+    ]
   });
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
