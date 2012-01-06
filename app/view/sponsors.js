@@ -26,9 +26,9 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     disabled: true,
-    scrollable: {
-      direction: 'vertical'
-    },
+//    scrollable: {
+//      direction: 'vertical'
+//    },
     items: [
       {
         docked : 'top',
