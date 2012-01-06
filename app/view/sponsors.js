@@ -62,7 +62,7 @@ function init_sponsor_components(){
           {
             title: 'Contact',
             html: 'Contact information'
-          },
+          }
         ]
       }
     ]
