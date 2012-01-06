@@ -8,13 +8,13 @@
  * @var {color} $list-color
  * Text color for list rows.
  */
-$list-color: #000 !default;
+$list-color: #eee !default;
 
 /**
  * @var {color} $list-bg-color
  * Background-color for list rows.
  */
-$list-bg-color: #f7f7f7 !default;
+$list-bg-color: #000000 !default;
 
 /**
  * @var {color} $list-pressed-color
@@ -52,7 +52,8 @@ $list-header-bg-color: lighten(saturate($base-color, 10%), 20%) !default;
  *
  * See {@link Global_CSS#background-gradient background-gradient}.
  */
-$list-header-gradient: $base-gradient !default;
+//$list-header-gradient: $base-gradient !default;
+$list-header-gradient: #000 !default;
 
 /**
  * @var {measurement} $list-disclosure-size
