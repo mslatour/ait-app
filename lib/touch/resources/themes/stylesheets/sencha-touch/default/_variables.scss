@@ -64,14 +64,14 @@ $basic-slider: false !default;
  * @var {color} $base-color
  * The primary color variable from which most elements derive their color scheme.
  */
-$base-color: #354F6E !default; // Graphite
+$base-color: #FF8A00 !default;
 
 /**
  * @var {string} $base-gradient
  * The primary gradient variable from which most elements derive their color scheme.
  * @see background-gradient
  */
-$base-gradient: 'matte' !default;
+$base-gradient: 'glossy' !default;
 
 /**
  * @var {color} $alert-color
@@ -102,3 +102,10 @@ $page-bg-color: #eee !default;
  * The minimum row height for items like toolbars and list items.
  */
 $global-row-height: 2.6em !default;
+
+$list-active-color: #FF8A00 !default;
+
+//$list-bg-color: #000 !default;
+
+//$list-color: #eee !default;
+
