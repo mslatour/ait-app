@@ -33,8 +33,8 @@ function init_sponsor_components(){
         html: 'Sponsor details'
       },
       {
+        xtype: "carousel",
         flex: 2,
-        layout: "card",
         item: [
           {
             html: 'Sponsor details 2'
