@@ -14,10 +14,10 @@ function init_sponsor_components(){
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
-        COMP_SPONSORS_DETAILS_CONTENT2.hide();
+      /*  COMP_SPONSORS_DETAILS_CONTENT2.hide();
         COMP_SPONSORS_DETAILS_CONTENT2.disable();
         COMP_SPONSORS_DETAILS_CONTENT2.enable();
-        COMP_SPONSORS_DETAILS_CONTENT2.show();
+        COMP_SPONSORS_DETAILS_CONTENT2.show();*/
       },
       scope: COMP_SPONSORS_LIST
     }
@@ -27,8 +27,8 @@ function init_sponsor_components(){
     tpl: TPL_SPONSOR_DETAILS
   });
 
-  var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.TabPanel', {
-    tabBarPosition: 'top',
+  var COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
+    layout: 'card',
     items: [
       {
         title: 'Slot1',
