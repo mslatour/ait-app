@@ -50,7 +50,7 @@ Ext.application({
       ]
     });
 
-    panel.getLayout().setActiveItem(1);
+    panel.setActiveItem(1);
 
     // Fix: links were not clickable on mobile phones
     COMP_MAIN_MENU.body.on(
