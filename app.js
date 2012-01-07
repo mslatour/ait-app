@@ -21,6 +21,7 @@ Ext.application({
           title: 'List Test',
           iconCls: 'more',
           itemTpl: '{txt}',
+          fields: ["txt"],
           data: [
             { txt: 'text 1' },
             { txt: 'text 2' },
