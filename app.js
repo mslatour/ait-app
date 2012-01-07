@@ -43,31 +43,6 @@ Ext.application({
       items: [
         panel,
         {
-          layout: 'card',
-          title: 'Vacancies',
-          iconCls: 'team',
-          items: [
-            {
-              html: 'Job and internship opportunities.'
-            },
-            {
-              layout: 'hbox',
-              items: [
-                {
-                  flex: 1,
-                  xtype: 'list',
-                  store: 'lectureStore',
-                  itemTpl: '{title}'
-                },
-                {
-                  flex: 4,
-                  html: 'Sub 1'
-                }
-              ]
-            }
-          ]
-        },
-        {
           iconCls: 'more',
           title: 'Dummy',
           html: 'dummy'
@@ -75,9 +50,7 @@ Ext.application({
       ]
     });
 
-    alert(COMP_MAIN_MENU.items);
-    alert(COMP_MAIN_MENU.items[0]);
-    COMP_MAIN_MENU.items[0].getLayout().setActiveItem(1);
+    panel.getLayout().setActiveItem(1);
 
     // Fix: links were not clickable on mobile phones
     COMP_MAIN_MENU.body.on(
