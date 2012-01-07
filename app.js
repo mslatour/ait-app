@@ -40,6 +40,11 @@ Ext.application({
               ]
             }
           ]
+        },
+        {
+          iconCls: 'more',
+          title: 'Dummy',
+          html: 'dummy'
         }
       ]
     });
