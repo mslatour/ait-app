@@ -35,12 +35,14 @@ Ext.application({
               layout: 'hbox',
               items: [
                 {
+                  flex: 1,
                   html: 'Sub 1'
                 },
                 {
+                  flex: 4,
                   xtype: 'list',
                   store: 'lectureStore',
-                  itemTpl: '{title}',
+                  itemTpl: '{title}'
                 }
               ]
             }
