@@ -17,6 +17,17 @@ Ext.application({
       },
       items: [
         {
+          xtype: 'list',
+          title: 'List Test',
+          iconCls: 'more',
+          itemTpl: '{txt}',
+          data: [
+            { txt: 'text 1' },
+            { txt: 'text 2' },
+            { txt: 'text 3' }
+          ]
+        },
+        {
           xtype: 'carousel',
           title: 'Vacancies',
           iconCls: 'team',
