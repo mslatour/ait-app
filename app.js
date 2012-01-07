@@ -5,8 +5,6 @@ Ext.application({
 	appFolder: 'app',
 	models: ['app.model.Lecture','app.model.Speaker'],
 	launch: function(){ 
-    init_components();
-    
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
@@ -18,10 +16,6 @@ Ext.application({
         }
       },
       items: [
-        COMP_TAB_SCHEDULE,
-        COMP_TAB_CONTACT,
-        COMP_TAB_EVENTS,
-        COMP_TAB_SPONSORS,
         {
           title: 'Vacancies',
           iconCls: 'team',
