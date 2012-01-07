@@ -5,6 +5,31 @@ Ext.application({
 	appFolder: 'app',
 	models: ['app.model.Lecture','app.model.Speaker'],
 	launch: function(){ 
+    var panel = Ext.create('Ext.Panel', {
+          layout: 'card',
+          title: 'Vacancies',
+          iconCls: 'team',
+          items: [
+            {
+              html: 'Job and internship opportunities.'
+            },
+            {
+              layout: 'hbox',
+              items: [
+                {
+                  flex: 1,
+                  xtype: 'list',
+                  store: 'lectureStore',
+                  itemTpl: '{title}'
+                },
+                {
+                  flex: 4,
+                  html: 'Sub 1'
+                }
+              ]
+            }
+          ]
+        });
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
@@ -16,6 +41,7 @@ Ext.application({
         }
       },
       items: [
+        panel,
         {
           layout: 'card',
           title: 'Vacancies',
