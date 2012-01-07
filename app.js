@@ -26,6 +26,7 @@ Ext.application({
             },
             {
               xtype: 'carousel',
+              direction: 'vertical',
               items: [
                 {
                   html: 'Sub 1'
