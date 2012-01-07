@@ -25,7 +25,15 @@ Ext.application({
               html: 'Job and internship opportunities.'
             },
             {
-              html: 'Job and internship opportunities2.'
+              xtype: 'carousel',
+              items: [
+                {
+                  html: 'Sub 1'
+                },
+                {
+                  html: 'Sub 2'
+                }
+              ]
             }
           ]
         }
