@@ -32,7 +32,13 @@ Ext.application({
                   html: 'Sub 1'
                 },
                 {
-                  html: 'Sub 2'
+                  xtype: 'list',
+                  itemTpl: '{txt}',
+                  data: [
+                    { txt: 'text 1' },
+                    { txt: 'text 2' },
+                    { txt: 'text 3' }
+                  ]
                 }
               ]
             }
