@@ -32,8 +32,7 @@ Ext.application({
               html: 'Job and internship opportunities.'
             },
             {
-              xtype: 'carousel',
-              direction: 'vertical',
+              layout: 'hbox',
               items: [
                 {
                   html: 'Sub 1'
