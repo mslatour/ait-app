@@ -41,7 +41,7 @@ Ext.application({
                 {
                   xtype: 'list',
                   store: 'lectureStore',
-                  itemTpl: '{txt}',
+                  itemTpl: '{title}',
                 }
               ]
             }
