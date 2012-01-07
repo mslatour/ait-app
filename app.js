@@ -40,12 +40,8 @@ Ext.application({
                 },
                 {
                   xtype: 'list',
+                  store: 'lectureStore',
                   itemTpl: '{txt}',
-                  data: [
-                    { txt: 'text 1' },
-                    { txt: 'text 2' },
-                    { txt: 'text 3' }
-                  ]
                 }
               ]
             }
