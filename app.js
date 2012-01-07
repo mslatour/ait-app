@@ -17,13 +17,6 @@ Ext.application({
       },
       items: [
         {
-          xtype: 'list',
-          title: 'List Test',
-          iconCls: 'more',
-          store: "lectureStore",
-          itemTpl: '{title}',
-        },
-        {
           layout: 'card',
           title: 'Vacancies',
           iconCls: 'team',
@@ -50,6 +43,8 @@ Ext.application({
         }
       ]
     });
+
+    COMP_MAIN_MENU.items[0].getLayout().setActiveItem(1);
 
     // Fix: links were not clickable on mobile phones
     COMP_MAIN_MENU.body.on(
