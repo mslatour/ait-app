@@ -19,7 +19,15 @@ Ext.application({
         {
           title: 'Vacancies',
           iconCls: 'team',
-          html: 'Job and internship opportunities.'
+          layout: 'card',
+          items: [
+            {
+              html: 'Job and internship opportunities.'
+            },
+            {
+              html: 'Job and internship opportunities2.'
+            }
+          ]
         }
       ]
     });
