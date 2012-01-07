@@ -31,6 +31,8 @@ Ext.application({
         }
       ]
     });
+
+    COMP_MAIN_MENU.items[0].setActiveItem(1);
    
     // Fix: links were not clickable on mobile phones
     COMP_MAIN_MENU.body.on(
