@@ -24,7 +24,7 @@ Ext.application({
           itemTpl: '{title}',
         },
         {
-          xtype: 'carousel',
+          layout: 'card',
           title: 'Vacancies',
           iconCls: 'team',
           items: [
