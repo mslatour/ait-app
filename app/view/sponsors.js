@@ -57,7 +57,7 @@ function init_sponsor_components(){
           }
         ]
       },
-      COMP_SPONSORS_DETAILS_CONTENT2
+      COMP_SPONSOR_DETAILS_CONTAINER
     ]
   });
 
@@ -74,7 +74,7 @@ function init_sponsor_components(){
     items: [
       COMP_SPONSORS_LIST,
       //COMP_SPONSORS_DETAILS
-      COMP_SPONSORS_DETAILS_CONTENT2
+      COMP_SPONSOR_DETAILS_CONTAINER
     ]
   });
 }
