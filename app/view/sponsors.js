@@ -57,7 +57,7 @@ function init_sponsor_components(){
           }
         ]
       },
-      COMP_SPONSOR_DETAILS_CONTAINER
+      COMP_SPONSORS_DETAILS_CONTAINER
     ]
   });
 
