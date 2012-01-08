@@ -33,6 +33,8 @@ function init_sponsor_components(){
     ]
   });
 
+  COMP_SPONSORS_DETAILS_CONTAINER.setActiveItem(1);
+
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     items: [
       {
