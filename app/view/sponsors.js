@@ -136,8 +136,6 @@ function init_sponsor_components(){
     ]
   });
 
-  });
-
   COMP_TAB_SPONSORS = Ext.create('Ext.Panel', {
     title: 'Sponsors',
     iconCls: 'favorites',
