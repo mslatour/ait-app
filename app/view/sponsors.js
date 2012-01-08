@@ -100,7 +100,7 @@ function init_sponsor_components(){
               }
             ]
           },
-          COMP_SPONSORS_DETAILS_CONTENT_CONTAINER
+          COMP_SPONSORS_DETAILS_CONTENT
         ]
       }
     ]
