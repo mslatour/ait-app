@@ -10,7 +10,7 @@ function init_sponsor_components(){
     listeners: {
       select: function(){
         var record = this.getSelected();
-        COMP_SPONSORS_DETAILS_CONTENT_INFO.setData(
+        COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
@@ -19,36 +19,96 @@ function init_sponsor_components(){
     }
   });
 
-  COMP_SPONSORS_DETAILS_CONTENT_HEADER = Ext.create('Ext.Panel', {
-    html: "Header info"
-  });
-  
-  COMP_SPONSORS_DETAILS_CONTENT_INFO = Ext.create('Ext.Panel', {
-    tpl: TPL_SPONSOR_DETAILS
-  });
-
-  COMP_SPONSORS_DETAILS_CONTENT_EVENTS = Ext.create('Ext.List', {
-    store: 'eventStore',
-    itemTpl: '{name}'
-  });
-
-  COMP_SPONSORS_DETAILS_CONTENT_VACANCIES = Ext.create('Ext.Panel', {
-    html: "No vacancies"
-  });
-          
-  COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    layout: "card",
-    items: [
-      COMP_SPONSORS_DETAILS_CONTENT_INFO,
-      COMP_SPONSORS_DETAILS_CONTENT_EVENTS,
-      COMP_SPONSORS_DETAILS_CONTENT_VACANCIES
-    ]
-  });
-
-  COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
+  COMP_SPONSORS_DETAILS_MENU = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
       {
+        xtype: "button",
+        text: "Info",
+        handler: function(){
+          COMP_SPONSORS_DETAILS.setActiveItem(0);
+        }
+      },
+      {
+        xtype: "button",
+        text: "Events",
+        handler: function(){
+          COMP_SPONSORS_DETAILS.setActiveItem(1);
+        }
+      },
+      {
+        xtype: "button",
+        text: "Vacancies",
+        handler: function(){
+          COMP_SPONSORS_DETAILS.setActiveItem(2);
+        }
+      }
+    ]
+  });
+
+  COMP_SPONSORS_DETAILS_HEADER = Ext.create('Ext.Panel', {
+    html: "Header info"
+  });
+  
+  COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
+    tpl: TPL_SPONSOR_DETAILS
+  });
+
+  COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
+    layout: "vbox",
+    items: [
+      COMP_SPONSORS_DETAILS_HEADER,
+      {
+        layout: "hbox",
+        items: [
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_INFO_CONTENT
+        ]
+      }
+    ]
+  });
+  
+  COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
+    store: 'eventStore',
+    itemTpl: '{name}'
+  });
+  
+  COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
+    layout: "vbox",
+    items: [
+      COMP_SPONSORS_DETAILS_HEADER,
+      {
+        layout: "hbox",
+        items: [
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
+        ]
+      }
+    ]
+  });
+
+  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
+    html: "No vacancies"
+  });
+  
+  COMP_SPONSORS_DETAILS_VACANCIES = Ext.create('Ext.Panel', {
+    layout: "vbox",
+    items: [
+      COMP_SPONSORS_DETAILS_HEADER,
+      {
+        layout: "hbox",
+        items: [
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
+        ]
+      }
+    ]
+  });
+          
+  COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
+    layout: "card",
+    items: [
+      /*{
         docked : 'top',
         xtype: 'toolbar',
         title: 'Sponsor page',
@@ -69,41 +129,12 @@ function init_sponsor_components(){
             }
           }
         ]
-      },
-      COMP_SPONSORS_DETAILS_CONTENT_HEADER,
-      {
-        layout: "hbox",
-        items: [
-          {
-            layout: "vbox",
-            items: [
-              {
-                xtype: "button",
-                text: "Info",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS_CONTENT.setActiveItem(0);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Events",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS_CONTENT.setActiveItem(1);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Vacancies",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS_CONTENT.setActiveItem(2);
-                }
-              }
-            ]
-          },
-          COMP_SPONSORS_DETAILS_CONTENT
-        ]
-      }
+      },*/
+      COMP_SPONSORS_DETAILS_INFO,
+      COMP_SPONSORS_DETAILS_EVENTS,
+      COMP_SPONSORS_DETAILS_VACANCIES
     ]
+  });
 
   });
 
