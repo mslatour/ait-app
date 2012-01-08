@@ -21,15 +21,13 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_CONTENT = Ext.create('Ext.Panel', {
-    flex: 3,
     tpl: TPL_SPONSOR_DETAILS
   });
 
   COMP_SPONSORS_DETAILS_CONTENT2 = Ext.create('Ext.Panel', {
-    layout: "hbox",
+    layout: "card",
     items: [
       {
-        disabled: true,
         xtype: "list",
         itemTpl: "Item: {item}",
         data: [
@@ -43,8 +41,9 @@ function init_sponsor_components(){
     ]
   });
 
+  COMP_SPONSORS_DETAILS_CONTENT2.setActiveItem(0);
+
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
-    disabled: false,
     items: [
       {
         docked : 'top',
