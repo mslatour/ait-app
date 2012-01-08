@@ -108,7 +108,7 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     layout: "card",
     items: [
-      /*{
+      {
         docked : 'top',
         xtype: 'toolbar',
         title: 'Sponsor page',
@@ -129,7 +129,7 @@ function init_sponsor_components(){
             }
           }
         ]
-      },*/
+      },
       COMP_SPONSORS_DETAILS_INFO,
       COMP_SPONSORS_DETAILS_EVENTS,
       COMP_SPONSORS_DETAILS_VACANCIES
