@@ -59,7 +59,7 @@ function init_sponsor_components(){
     items: [
       COMP_SPONSORS_DETAILS_HEADER,
       {
-        layout: "hbox",
+//        layout: "hbox",
         items: [
           COMP_SPONSORS_DETAILS_MENU,
           COMP_SPONSORS_DETAILS_INFO_CONTENT
