@@ -17,6 +17,7 @@ function init_sponsor_components(){
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
+        COMP_SPONSORS_DETAILS.enable();
       },
       scope: COMP_SPONSORS_LIST
     }
@@ -109,6 +110,7 @@ function init_sponsor_components(){
   });
           
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
+    disabled: true,
     layout: "card",
     items: [
       {
