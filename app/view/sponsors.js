@@ -57,6 +57,10 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
     tpl: TPL_SPONSOR_DETAILS
   });
+  
+  COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
+    html: "No vacancies"
+  });
 
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
     layout: "vbox",
@@ -66,7 +70,7 @@ function init_sponsor_components(){
         layout: "hbox",
         items: [
           COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
+          COMP_SPONSORS_DETAILS_INFO_CONTENT
         ]
       }
     ]
