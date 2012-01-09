@@ -101,12 +101,12 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
-    layout: "vbox",
+//    layout: "vbox",
     items: [
-      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
-      {
-        layout: "hbox",
-        items: [
+//      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
+//      {
+//        layout: "hbox",
+//        items: [
 //          COMP_SPONSORS_DETAILS_MENU,
           {
             xtype: "dataview",
@@ -121,8 +121,8 @@ function init_sponsor_components(){
             itemTpl: '{title}'
           }//,
 //          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
-        ]
-      }
+//        ]
+ //     }
     ]
   });
 
