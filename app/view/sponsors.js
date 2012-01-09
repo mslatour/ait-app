@@ -30,7 +30,6 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_MENU = {
     layout: "vbox",
-    flex: 1,
     items: [
       {
         xtype: "button",
@@ -44,8 +43,6 @@ function init_sponsor_components(){
         text: "Events",
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(1);
-          COMP_SPONSORS_DETAILS_EVENTS_CONTENT.show();
-          COMP_SPONSORS_DETAILS_EVENTS_CONTENT.enable();
         }
       },
       {
@@ -89,7 +86,7 @@ function init_sponsor_components(){
   
   COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
     store: 'eventStore',
-    flex: 0,
+    flex: 1,
     itemTpl: '{title}',
     grouped: true,
     listeners: {
