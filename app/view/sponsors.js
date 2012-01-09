@@ -110,7 +110,7 @@ function init_sponsor_components(){
           COMP_SPONSORS_DETAILS_MENU,
           {
             xtype: "list",
-            store: Ext.create('Ext.Store',{
+            store: Ext.create('Ext.data.Store',{
               fields: [ "title" ],
               data: [
                 { title: "test a" },
