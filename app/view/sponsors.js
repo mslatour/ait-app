@@ -21,6 +21,7 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_MENU = Ext.create('Ext.Panel', {
     layout: "vbox",
+    flex:1,
     items: [
       {
         xtype: "button",
@@ -51,6 +52,7 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
+    flex: 5,
     tpl: TPL_SPONSOR_DETAILS
   });
 
@@ -58,15 +60,15 @@ function init_sponsor_components(){
     layout: "vbox",
     items: [
    //   COMP_SPONSORS_DETAILS_HEADER,
-//      {
-//        layout: "hbox",
-  //      items: [
+      {
+        layout: "hbox",
+        items: [
           COMP_SPONSORS_DETAILS_INFO_CONTENT,
-          { layout: "vbox", items: [ {xtype: "button", text: "text"}, {html:"text1.2"}] },
+          { flex: 2, layout: "vbox", items: [ {xtype: "button", text: "text"}, {html:"text1.2"}] },
           COMP_SPONSORS_DETAILS_MENU,
-          { html : "text2" }
-      //  ]
-     // }
+          { flex: 1, html : "text2" }
+        ]
+      }
     ]
   });
   
