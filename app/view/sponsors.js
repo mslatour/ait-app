@@ -13,11 +13,10 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
-        COMP_TAB_SPONSORS.items[1].items[0].setData(
+        (COMP_SPONSORS_DETAILS.getItems())[1].setData(
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
-        COMP_SPONSORS_DETAILS.show();
       },
       scope: COMP_SPONSORS_LIST
     }
