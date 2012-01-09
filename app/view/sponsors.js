@@ -52,7 +52,7 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_HEADER = {
     tpl: "Sponsor: {name}"
-  });
+  };
   
   
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
