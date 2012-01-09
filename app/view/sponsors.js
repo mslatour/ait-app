@@ -61,7 +61,7 @@ function init_sponsor_components(){
 //      {
 //        layout: "hbox",
   //      items: [
-          COMP_SPONSORS_DETAILS_MENU//,
+   //       COMP_SPONSORS_DETAILS_MENU//,
           COMP_SPONSORS_DETAILS_INFO_CONTENT
       //  ]
      // }
