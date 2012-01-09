@@ -110,7 +110,7 @@ function init_sponsor_components(){
           COMP_SPONSORS_DETAILS_MENU,
           {
             xtype: "list",
-            store: 'eventStore',
+            store: 'lectureStore',
             itemTpl: '{title}',
             grouped: true,
             listeners: {
