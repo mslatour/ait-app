@@ -54,6 +54,24 @@ function init_sponsor_components(){
     tpl: "{name}"
   });
   
+  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
+    html: "No vacancies"
+  });
+  
+  COMP_SPONSORS_DETAILS_VACANCIES = Ext.create('Ext.Panel', {
+    layout: "vbox",
+    items: [
+      COMP_SPONSORS_DETAILS_HEADER,
+      {
+        layout: "hbox",
+        items: [
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
+        ]
+      }
+    ]
+  });
+  
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
     tpl: TPL_SPONSOR_DETAILS
   });
@@ -95,23 +113,6 @@ function init_sponsor_components(){
     ]
   });
 
-  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
-    html: "No vacancies"
-  });
-  
-  COMP_SPONSORS_DETAILS_VACANCIES = Ext.create('Ext.Panel', {
-    layout: "vbox",
-    items: [
-      COMP_SPONSORS_DETAILS_HEADER,
-      {
-        layout: "hbox",
-        items: [
-          COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
-        ]
-      }
-    ]
-  });
           
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     hidden: true,
