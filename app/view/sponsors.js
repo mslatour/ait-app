@@ -107,7 +107,7 @@ function init_sponsor_components(){
       {
         layout: "hbox",
         items: [
-          COMP_SPONSORS_DETAILS_MENU,
+//          COMP_SPONSORS_DETAILS_MENU,
           {
             xtype: "list",
             store: Ext.create('Ext.data.Store',{
