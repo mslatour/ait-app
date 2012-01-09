@@ -62,7 +62,7 @@ function init_sponsor_components(){
 //        layout: "hbox",
   //      items: [
           COMP_SPONSORS_DETAILS_INFO_CONTENT,
-          { html : "text" },
+          { layout: "vbox", items: [ {html : "text"}, {html:"text1.2"}] },
           COMP_SPONSORS_DETAILS_MENU,
           { html : "text2" }
       //  ]
