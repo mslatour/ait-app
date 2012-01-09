@@ -58,13 +58,13 @@ function init_sponsor_components(){
     layout: "vbox",
     items: [
       COMP_SPONSORS_DETAILS_HEADER,
-      {
+//      {
 //        layout: "hbox",
-        items: [
-          COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_INFO_CONTENT
-        ]
-      }
+  //      items: [
+          COMP_SPONSORS_DETAILS_MENU//,
+    //      COMP_SPONSORS_DETAILS_INFO_CONTENT
+      //  ]
+     // }
     ]
   });
   
