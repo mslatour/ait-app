@@ -43,6 +43,8 @@ function init_sponsor_components(){
         text: "Events",
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(1);
+          COMP_SPONSORS_DETAILS_EVENTS_CONTENT.show();
+          COMP_SPONSORS_DETAILS_EVENTS_CONTENT.enable();
         }
       },
       {
@@ -101,28 +103,16 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
-//    layout: "vbox",
+    layout: "vbox",
     items: [
-//      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
-//      {
-//        layout: "hbox",
-//        items: [
-//          COMP_SPONSORS_DETAILS_MENU,
-          {
-            xtype: "dataview",
-            store: Ext.create('Ext.data.Store',{
-              fields: [ "title" ],
-              data: [
-                { title: "test a" },
-                { title: "test b" },
-                { title: "test c" }
-              ]
-            }),
-            itemTpl: '{title}'
-          }//,
-//          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
-//        ]
- //     }
+      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
+      {
+        layout: "hbox",
+        items: [
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
+        ]
+      }
     ]
   });
 
@@ -170,18 +160,7 @@ function init_sponsor_components(){
           }
         ]
       },
-      { items: [{
-        xtype: "dataview",
-        store: Ext.create('Ext.data.Store',{
-          fields: [ "title" ],
-          data: [
-            { title: "test a" },
-            { title: "test b" },
-            { title: "test c" }
-          ]
-        }),
-        itemTpl: '{title}'
-      }] },
+      COMP_SPONSORS_DETAILS_INFO,
       COMP_SPONSORS_DETAILS_EVENTS,
       COMP_SPONSORS_DETAILS_VACANCIES
     ]
