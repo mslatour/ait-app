@@ -13,6 +13,9 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
+        COMP_SPONSORS_DETAILS_HEADER.setData(
+          record.items[0].data
+        );
         COMP_TAB_SPONSORS.setActiveItem(1);
       },
       scope: COMP_SPONSORS_LIST
@@ -47,7 +50,7 @@ function init_sponsor_components(){
   };
 
   COMP_SPONSORS_DETAILS_HEADER = Ext.create('Ext.Panel', {
-    html: "Header info"
+    tpl: "{name}"
   });
   
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
