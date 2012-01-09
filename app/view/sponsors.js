@@ -59,7 +59,7 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
-    layout: "vbox",
+//    layout: "vbox",
     items: [
       { html: "test" },
       COMP_SPONSORS_DETAILS_HEADER,
