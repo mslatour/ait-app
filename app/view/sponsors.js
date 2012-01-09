@@ -117,7 +117,7 @@ function init_sponsor_components(){
                 { title: "test b" },
                 { title: "test c" }
               ]
-            },
+            }),
             itemTpl: '{title}'
           },
           COMP_SPONSORS_DETAILS_EVENTS_CONTENT
