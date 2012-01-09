@@ -170,6 +170,18 @@ function init_sponsor_components(){
           }
         ]
       },
+      {
+        xtype: "dataview",
+        store: Ext.create('Ext.data.Store',{
+          fields: [ "title" ],
+          data: [
+            { title: "test a" },
+            { title: "test b" },
+            { title: "test c" }
+          ]
+        }),
+        itemTpl: '{title}'
+      },
       COMP_SPONSORS_DETAILS_INFO,
       COMP_SPONSORS_DETAILS_EVENTS,
       COMP_SPONSORS_DETAILS_VACANCIES
