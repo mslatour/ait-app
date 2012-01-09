@@ -57,7 +57,7 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
-//      COMP_SPONSORS_DETAILS_HEADER,
+      COMP_SPONSORS_DETAILS_HEADER,
 //      {
 //        layout: "hbox",
   //      items: [
