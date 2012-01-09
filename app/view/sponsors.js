@@ -109,7 +109,7 @@ function init_sponsor_components(){
         items: [
 //          COMP_SPONSORS_DETAILS_MENU,
           {
-            xtype: "list",
+            xtype: "dataview",
             store: Ext.create('Ext.data.Store',{
               fields: [ "title" ],
               data: [
