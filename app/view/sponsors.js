@@ -19,7 +19,7 @@ function init_sponsor_components(){
     }
   });
 
-  var COMP_SPONSORS_DETAILS_MENU = Ext.create('Ext.Panel', {
+  var COMP_SPONSORS_DETAILS_MENU = {
     layout: "vbox",
     items: [
       {
@@ -44,7 +44,7 @@ function init_sponsor_components(){
         }
       }
     ]
-  });
+  };
 
   COMP_SPONSORS_DETAILS_HEADER = Ext.create('Ext.Panel', {
     html: "Header info"
@@ -62,32 +62,7 @@ function init_sponsor_components(){
       {
         layout: "hbox",
         items: [
-          {
-            layout: "vbox",
-            items: [
-              {
-                xtype: "button",
-                text: "Info",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(0);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Events",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(1);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Vacancies",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(2);
-                }
-              }
-            ]
-          },
+          COMP_SPONSORS_DETAILS_MENU,
           COMP_SPONSORS_DETAILS_INFO_CONTENT
         ]
       }
