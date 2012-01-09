@@ -64,8 +64,33 @@ function init_sponsor_components(){
         layout: "hbox",
         items: [
           COMP_SPONSORS_DETAILS_INFO_CONTENT,
-          { flex: 2, layout: "vbox", items: [ {xtype: "button", text: "text"}, {html:"text1.2"}] },
-          COMP_SPONSORS_DETAILS_MENU,
+          { 
+            flex: 2, 
+            layout: "vbox", 
+            items: [ 
+              {
+                xtype: "button",
+                text: "Info",
+                handler: function(){
+                  COMP_SPONSORS_DETAILS.setActiveItem(0);
+                }
+              },
+              {
+                xtype: "button",
+                text: "Events",
+                handler: function(){
+                  COMP_SPONSORS_DETAILS.setActiveItem(1);
+                }
+              },
+              {
+                xtype: "button",
+                text: "Vacancies",
+                handler: function(){
+                  COMP_SPONSORS_DETAILS.setActiveItem(2);
+                }
+              }
+            ]
+          },
           { flex: 1, html : "text2" }
         ]
       }
