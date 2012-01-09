@@ -113,8 +113,8 @@ function init_sponsor_components(){
             store: Ext.create('Ext.Store',{
               fields: [ "title" ],
               data: [
-                { title: "test a" }
-                { title: "test b" }
+                { title: "test a" },
+                { title: "test b" },
                 { title: "test c" }
               ]
             },
