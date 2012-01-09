@@ -19,9 +19,8 @@ function init_sponsor_components(){
     }
   });
 
-  COMP_SPONSORS_DETAILS_MENU = Ext.create('Ext.Panel', {
+  var COMP_SPONSORS_DETAILS_MENU = Ext.create('Ext.Panel', {
     layout: "vbox",
-    flex:1,
     items: [
       {
         xtype: "button",
@@ -59,39 +58,12 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
-   //   COMP_SPONSORS_DETAILS_HEADER,
+      COMP_SPONSORS_DETAILS_HEADER,
       {
         layout: "hbox",
         items: [
-          COMP_SPONSORS_DETAILS_INFO_CONTENT,
-          { 
-            flex: 2, 
-            layout: "vbox", 
-            items: [ 
-              {
-                xtype: "button",
-                text: "Info",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(0);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Events",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(1);
-                }
-              },
-              {
-                xtype: "button",
-                text: "Vacancies",
-                handler: function(){
-                  COMP_SPONSORS_DETAILS.setActiveItem(2);
-                }
-              }
-            ]
-          },
-          { flex: 1, html : "text2" }
+          COMP_SPONSORS_DETAILS_MENU,
+          COMP_SPONSORS_DETAILS_INFO_CONTENT
         ]
       }
     ]
