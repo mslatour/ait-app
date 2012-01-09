@@ -119,8 +119,8 @@ function init_sponsor_components(){
               ]
             }),
             itemTpl: '{title}'
-          },
-          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
+          }//,
+//          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
         ]
       }
     ]
