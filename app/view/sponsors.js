@@ -30,6 +30,7 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_MENU = {
     layout: "vbox",
+    flex: 1,
     items: [
       {
         xtype: "button",
@@ -88,6 +89,7 @@ function init_sponsor_components(){
   
   COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
     store: 'eventStore',
+    flex: 5,
     itemTpl: '{title}',
     grouped: true,
     listeners: {
