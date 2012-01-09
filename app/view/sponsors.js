@@ -110,19 +110,15 @@ function init_sponsor_components(){
           COMP_SPONSORS_DETAILS_MENU,
           {
             xtype: "list",
-            store: 'lectureStore',
-            itemTpl: '{title}',
-            grouped: true,
-            listeners: {
-              select: function(){
-                var record = this.getSelected();
-                COMP_EVENTS_DETAILS_CONTENT.setData(
-                  record.items[0].data
-                );
-                COMP_TAB_EVENTS.setActiveItem(1)
-              },
-              scope: COMP_EVENTS_LIST
-            }
+            store: Ext.create('Ext.Store',{
+              fields: [ "title" ],
+              data: [
+                { title: "test a" }
+                { title: "test b" }
+                { title: "test c" }
+              ]
+            },
+            itemTpl: '{title}'
           },
           COMP_SPONSORS_DETAILS_EVENTS_CONTENT
         ]
