@@ -85,8 +85,19 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
-    store: 'lectureStore',
-    itemTpl: '{title}'
+    store: 'eventStore',
+    itemTpl: '{title}',
+    grouped: true,
+    listeners: {
+      select: function(){
+        var record = this.getSelected();
+        COMP_EVENTS_DETAILS_CONTENT.setData(
+          record.items[0].data
+        );
+        COMP_TAB_EVENTS.setActiveItem(1)
+      },
+      scope: COMP_EVENTS_LIST
+    }
   });
   
   COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
