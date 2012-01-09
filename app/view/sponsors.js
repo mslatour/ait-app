@@ -59,17 +59,16 @@ function init_sponsor_components(){
   });
 
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
-//    layout: "vbox",
+    layout: "vbox",
     items: [
-      { html: "test" },
       COMP_SPONSORS_DETAILS_HEADER,
-     /* {
+      {
         layout: "hbox",
         items: [
           COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_INFO_CONTENT
+          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
         ]
-      }*/
+      }
     ]
   });
   
