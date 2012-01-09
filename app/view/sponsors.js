@@ -13,7 +13,13 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
-        ((COMP_SPONSORS_DETAILS.getItems())[1]).setData(
+        COMP_SPONSORS_DETAILS_INFO_HEADER.setData(
+          record.items[0].data
+        );
+        COMP_SPONSORS_DETAILS_EVENTS_HEADER.setData(
+          record.items[0].data
+        );
+        COMP_SPONSORS_DETAILS_VACANCIES_HEADER.setData(
           record.items[0].data
         );
         COMP_TAB_SPONSORS.setActiveItem(1);
@@ -49,9 +55,15 @@ function init_sponsor_components(){
     ]
   };
 
-  COMP_SPONSORS_DETAILS_HEADER = {
+  COMP_SPONSORS_DETAILS_INFO_HEADER = Ext.create('Ext.Panel',{
     tpl: "Sponsor: {name}"
-  };
+  });
+  COMP_SPONSORS_DETAILS_EVENTS_HEADER = Ext.create('Ext.Panel',{
+    tpl: "Sponsor: {name}"
+  });
+  COMP_SPONSORS_DETAILS_VACANCIES_HEADER = Ext.create('Ext.Panel',{
+    tpl: "Sponsor: {name}"
+  });
   
   
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
@@ -65,7 +77,7 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
-      COMP_SPONSORS_DETAILS_HEADER,
+      COMP_SPONSORS_DETAILS_INFO_HEADER,
       {
         layout: "hbox",
         items: [
@@ -84,7 +96,7 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
-      COMP_SPONSORS_DETAILS_HEADER,
+      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
       {
         layout: "hbox",
         items: [
@@ -102,7 +114,7 @@ function init_sponsor_components(){
   COMP_SPONSORS_DETAILS_VACANCIES = Ext.create('Ext.Panel', {
     layout: "vbox",
     items: [
-      COMP_SPONSORS_DETAILS_HEADER,
+      COMP_SPONSORS_DETAILS_VACANCIES_HEADER,
       {
         layout: "hbox",
         items: [
