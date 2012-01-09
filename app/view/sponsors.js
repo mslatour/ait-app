@@ -54,7 +54,6 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
-    flex: 5,
     tpl: TPL_SPONSOR_DETAILS
   });
 
@@ -74,7 +73,7 @@ function init_sponsor_components(){
   
   COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
     store: 'eventStore',
-    itemTpl: '{name}'
+    itemTpl: '{title}'
   });
   
   COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
