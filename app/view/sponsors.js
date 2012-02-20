@@ -26,8 +26,25 @@ function init_sponsor_components(){
     docked: "left",
     items: [
       {
+        text: 'Back',
+        margin: "5px 0px 20px 0px",
+        handler: function(b,e){
+          COMP_SPONSORS_LIST.deselect(
+            COMP_SPONSORS_LIST.getLastSelected()
+          );
+          COMP_TAB_SPONSORS.getLayout().getAnimation().setReverse(
+            true
+          );
+          COMP_TAB_SPONSORS.setActiveItem(0)
+          COMP_TAB_SPONSORS.getLayout().getAnimation().setReverse(
+            false
+          );
+        }
+      },
+      {
         xtype: "button",
         iconCls: 'info',
+        margin: "5px 0px",
         iconMask: true,
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(0);
@@ -35,6 +52,7 @@ function init_sponsor_components(){
       },
       {
         xtype: "button",
+        margin: "5px 0px",
         iconCls: "bookmarks",
         iconMask: true,
         handler: function(){
@@ -43,6 +61,7 @@ function init_sponsor_components(){
       },
       {
         xtype: "button",
+        margin: "5px 0px",
         iconCls: "team",
         iconMask: true,
         handler: function(){
@@ -53,6 +72,9 @@ function init_sponsor_components(){
   };
 
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
+    scrollable: {
+        direction: "vertical"
+    },
     tpl: TPL_SPONSOR_DETAILS
   });
   
@@ -74,6 +96,9 @@ function init_sponsor_components(){
   });
   
   COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
+    scrollable: {
+        direction: "vertical"
+    },
     html: "No vacancies"
   });
   
@@ -81,28 +106,6 @@ function init_sponsor_components(){
     hidden: true,
     layout: "card",
     items: [
-      {
-        docked : 'top',
-        xtype: 'toolbar',
-        title: 'Sponsor page',
-        items: [
-          {
-            text: 'Back',
-            handler: function(b,e){
-              COMP_SPONSORS_LIST.deselect(
-                COMP_SPONSORS_LIST.getLastSelected()
-              );
-              COMP_TAB_SPONSORS.getLayout().getAnimation().setReverse(
-                true
-              );
-              COMP_TAB_SPONSORS.setActiveItem(0)
-              COMP_TAB_SPONSORS.getLayout().getAnimation().setReverse(
-                false
-              );
-            }
-          }
-        ]
-      },
       COMP_SPONSORS_DETAILS_MENU,
       COMP_SPONSORS_DETAILS_INFO_CONTENT,
       COMP_SPONSORS_DETAILS_EVENTS_CONTENT,
