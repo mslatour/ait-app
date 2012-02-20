@@ -22,26 +22,34 @@ Ext.define('AIT.model.Event', {
 		description: null,	// Short description of the event (String)
     url: null,          // Url to information (String)
 		host: null,         // Reference to the hosting company (Company)
+    /**********************************************
+     * Fields:
+     * The fields object specifies the data items
+     * that are used during syncing via the proxy.
+     *
+     * Fields are used by the Operation that
+     * creates instances of Lecture out of a JSON 
+     * object retrieved proxy request.	
+     *
+     * @see Ext.data.Model#fields
+     *********************************************/
+    fields: [
+      { name: 'title', type: 'string' },
+      { name: 'date',  type: 'string' },
+      { name: 'description', type: 'string' },
+      { name: 'url', type: 'string' },
+      { name: 'host', type: 'AIT.model.Company'}
+    ],
+    proxy: {
+      type: "ajax",
+      url: "static/content/events.json",
+      reader: {
+        type: "json",
+        rootProperty: "events"
+      }
+    }
 	},
 
-	/**********************************************
-	 * Fields:
-	 * The fields object specifies the data items
-	 * that are used during syncing via the proxy.
-	 *
-	 * Fields are used by the Operation that
-	 * creates instances of Lecture out of a JSON 
-	 * object retrieved proxy request.	
-	 *
-	 * @see Ext.data.Model#fields
-	 *********************************************/
-	fields: [
-		{ name: 'title', type: 'string' },
-    { name: 'date',  type: 'string' },
-		{ name: 'description', type: 'string' },
-		{ name: 'url', type: 'string' },
-		{ name: 'host', type: 'AIT.model.Company'}
-	],
 
 	/**********************************************
 	 * function applyHost(host):
@@ -59,15 +67,6 @@ Ext.define('AIT.model.Event', {
 		return Ext.create('AIT.model.Company', host);
 	},
 		
-	proxy: {
-		type: "ajax",
-		url: "static/content/events.json",
-		reader: {
-			type: "json",
-			root: "events"
-		}
-	},
-
 	/**********************************************
 	 * function constructor(config):
 	 * Called when creating a new instance of

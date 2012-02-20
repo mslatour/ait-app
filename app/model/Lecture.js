@@ -22,26 +22,34 @@ Ext.define('AIT.model.Lecture', {
 		time: null,			// Time slot
 		description: null,	// Short description of the lecture (String)
 		speaker: null,	// Reference to the speaker (Speaker)
+    /**********************************************
+     * Fields:
+     * The fields object specifies the data items
+     * that are used during syncing via the proxy.
+     *
+     * Fields are used by the Operation that
+     * creates instances of Lecture out of a JSON 
+     * object retrieved proxy request.	
+     *
+     * @see Ext.data.Model#fields
+     *********************************************/
+	  fields: [
+  		{ name: 'title', type: 'string' },
+      { name: 'slot',  type: 'int' },
+      { name: 'time',  type: 'string' },
+  		{ name: 'description', type: 'string' },
+  		{ name: 'speaker', type: 'AIT.model.Speaker'}
+  	],
+    proxy: {
+      type: "ajax",
+      url: "static/content/lectures.json",
+      reader: {
+        type: "json",
+        rootProperty: "lectures"
+      }
+    }
 	},
 
-	/**********************************************
-	 * Fields:
-	 * The fields object specifies the data items
-	 * that are used during syncing via the proxy.
-	 *
-	 * Fields are used by the Operation that
-	 * creates instances of Lecture out of a JSON 
-	 * object retrieved proxy request.	
-	 *
-	 * @see Ext.data.Model#fields
-	 *********************************************/
-	fields: [
-		{ name: 'title', type: 'string' },
-    { name: 'slot',  type: 'int' },
-    { name: 'time',  type: 'string' },
-		{ name: 'description', type: 'string' },
-		{ name: 'speaker', type: 'AIT.model.Speaker'}
-	],
 
 	/**********************************************
 	 * function applySpeaker(speaker):
@@ -59,14 +67,6 @@ Ext.define('AIT.model.Lecture', {
 		return Ext.create('AIT.model.Speaker', speaker);
 	},
 		
-	proxy: {
-		type: "ajax",
-		url: "static/content/lectures.json",
-		reader: {
-			type: "json",
-			root: "lectures"
-		}
-	},
 
 	/**********************************************
 	 * function constructor(config):

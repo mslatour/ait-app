@@ -7,8 +7,10 @@ Ext.create('Ext.data.Store', {
     { name: 'description', type: 'string' },
     { name: 'speaker', type: 'app.model.Speaker'}
   ],
-  getGroupString: function(record){
-    return record.get('time');
+  grouper : {
+    groupFn: function(record){
+      return record.get('time');
+    }
   },
   proxy: {
     type: "ajax",

@@ -7,8 +7,10 @@ Ext.create('Ext.data.Store', {
     { name: 'url', type: 'string' },
     { name: 'host', type: 'app.model.Company'}
   ],
-  getGroupString: function(record){
-    return record.get('date');
+  grouper: {
+    groupFn: function(record){
+      return record.get('date');
+    }
   },
   proxy: {
     type: "ajax",
