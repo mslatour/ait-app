@@ -49,11 +49,11 @@ Ext.require("Ext.XTemplate", function(){
   TPL_SPONSOR_DETAILS = new Ext.XTemplate(
     '<div class="sponsor-details">',
        '<span class="name">{name}</span>',
-       '<div class="description">{description}</div>',
-       '<span class="url"><a href="{url}">{url}</a></span>',
-       '<span class="email">', 
+       '<span class="url">WWW: <a href="{url}">{url}</a></span>',
+       '<span class="email">Email: ', 
          '<a href="mailto:{email}">{email}</a>', 
        '</span>',
+       '<div class="description">{description}</div>',
     '</div>'
   );
 });

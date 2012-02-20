@@ -2,15 +2,15 @@
   {
     name: "Sponsor A",
     group: "Silver sponsors",
-    description: "Company that supported us by becoming a silver sponsor.",
-    url: "www.sponsora.com",
+    description: "<p>Company that supported us by becoming a silver sponsor.</p>",
+    url: "http://www.sponsora.com",
     email: "info@sponsora.com"
   },
   {
     name: "Sponsor B",
     group: "Silver sponsors",
-    description: "Another company that supported us by becoming a silver sponsor.",
-    url: "www.sponsorb.com",
+    description: "<p>Another company that supported us by becoming a silver sponsor.</p>",
+    url: "http://www.sponsorb.com",
     email: "info@sponsorb.com"
   }
 ]}

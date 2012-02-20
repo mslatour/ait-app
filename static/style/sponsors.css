@@ -1,0 +1,37 @@
+.sponsor-details {
+  font-size: medium;
+  padding: 5px 5px 10px 5px;
+}
+
+.sponsor-details .name {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sponsor-details .url {
+  font-weight: bold;
+  display: block;
+  font-size: small;
+}
+
+.sponsor-details .url a {
+  font-weight: normal;
+  font-size: normal;
+}
+
+.sponsor-details .email {
+  font-weight: bold;
+  display: block;
+  font-size: small;
+}
+
+.sponsor-details .email a {
+  font-weight: normal;
+  font-size: normal;
+}
+
+.sponsor-details .description p{
+  margin: 10px 0 0 0;
+}
