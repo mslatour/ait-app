@@ -1,6 +1,6 @@
-Ext.define('app.model.Company', {
+Ext.define('Company', {
 	extend: 'Ext.data.Model',
-	modelId: 'app.model.Company',
+	modelId: 'Company',
 
 	/**********************************************
 	 * Config:

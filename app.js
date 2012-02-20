@@ -3,7 +3,7 @@ Ext.log = console.log;
 Ext.application({
 	name: 'AWESOMEIT2012',
 	appFolder: 'app',
-	models: ['app.model.Lecture','app.model.Speaker'],
+	models: ['Lecture','Speaker', 'Event', 'Company'],
 	launch: function(){ 
     init_components();
     

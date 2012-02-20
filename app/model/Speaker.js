@@ -1,6 +1,6 @@
-Ext.define('app.model.Speaker', {
+Ext.define('Speaker', {
 	extend: 'Ext.data.Model',
-	modelId: 'app.model.Speaker',
+	modelId: 'Speaker',
 
 	/**********************************************
 	 * Config:

@@ -5,9 +5,9 @@
  * information about the lecture  *
  * and a reference to the speaker *
  **********************************/
-Ext.define('app.model.Lecture', {
+Ext.define('Lecture', {
 	extend: 'Ext.data.Model',
-	modelId: 'app.model.Lecture',
+	modelId: 'Lecture',
 	
 	/**********************************************
 	 * Config:
