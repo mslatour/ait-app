@@ -13,15 +13,6 @@ function init_sponsor_components(){
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
-        COMP_SPONSORS_DETAILS_INFO_HEADER.setData(
-          record.items[0].data
-        );
-        COMP_SPONSORS_DETAILS_EVENTS_HEADER.setData(
-          record.items[0].data
-        );
-        COMP_SPONSORS_DETAILS_VACANCIES_HEADER.setData(
-          record.items[0].data
-        );
         COMP_TAB_SPONSORS.setActiveItem(1);
       },
       scope: COMP_SPONSORS_LIST
@@ -30,24 +21,30 @@ function init_sponsor_components(){
 
   COMP_SPONSORS_DETAILS_MENU = {
     layout: "vbox",
+    xtype: 'toolbar',
+    width: "3.5em",
+    docked: "left",
     items: [
       {
         xtype: "button",
-        text: "Info",
+        iconCls: 'info',
+        iconMask: true,
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(0);
         }
       },
       {
         xtype: "button",
-        text: "Events",
+        iconCls: "bookmarks",
+        iconMask: true,
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(1);
         }
       },
       {
         xtype: "button",
-        text: "Vacancies",
+        iconCls: "team",
+        iconMask: true,
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(2);
         }
@@ -55,33 +52,8 @@ function init_sponsor_components(){
     ]
   };
 
-  COMP_SPONSORS_DETAILS_INFO_HEADER = Ext.create('Ext.Panel',{
-    tpl: "Sponsor: {name}"
-  });
-  COMP_SPONSORS_DETAILS_EVENTS_HEADER = Ext.create('Ext.Panel',{
-    tpl: "Sponsor: {name}"
-  });
-  COMP_SPONSORS_DETAILS_VACANCIES_HEADER = Ext.create('Ext.Panel',{
-    tpl: "Sponsor: {name}"
-  });
-  
-  
   COMP_SPONSORS_DETAILS_INFO_CONTENT = Ext.create('Ext.Panel', {
     tpl: TPL_SPONSOR_DETAILS
-  });
-  
-  COMP_SPONSORS_DETAILS_INFO = Ext.create('Ext.Panel', {
-    layout: "vbox",
-    items: [
-      COMP_SPONSORS_DETAILS_INFO_HEADER,
-      {
-        layout: "hbox",
-        items: [
-          COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_INFO_CONTENT
-        ]
-      }
-    ]
   });
   
   COMP_SPONSORS_DETAILS_EVENTS_CONTENT = Ext.create('Ext.List', {
@@ -101,38 +73,10 @@ function init_sponsor_components(){
     }
   });
   
-  COMP_SPONSORS_DETAILS_EVENTS = Ext.create('Ext.Panel', {
-    layout: "vbox",
-    items: [
-      COMP_SPONSORS_DETAILS_EVENTS_HEADER,
-      {
-        layout: "hbox",
-        items: [
-          COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_EVENTS_CONTENT
-        ]
-      }
-    ]
-  });
-
   COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
     html: "No vacancies"
   });
   
-  COMP_SPONSORS_DETAILS_VACANCIES = Ext.create('Ext.Panel', {
-    layout: "vbox",
-    items: [
-      COMP_SPONSORS_DETAILS_VACANCIES_HEADER,
-      {
-        layout: "hbox",
-        items: [
-          COMP_SPONSORS_DETAILS_MENU,
-          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
-        ]
-      }
-    ]
-  });
-          
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     hidden: true,
     layout: "card",
@@ -159,9 +103,10 @@ function init_sponsor_components(){
           }
         ]
       },
-      COMP_SPONSORS_DETAILS_INFO,
-      COMP_SPONSORS_DETAILS_EVENTS,
-      COMP_SPONSORS_DETAILS_VACANCIES
+      COMP_SPONSORS_DETAILS_MENU,
+      COMP_SPONSORS_DETAILS_INFO_CONTENT,
+      COMP_SPONSORS_DETAILS_EVENTS_CONTENT,
+      COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
     ]
   });
 
