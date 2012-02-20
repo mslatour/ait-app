@@ -5,9 +5,8 @@
  * information about the lecture  *
  * and a reference to the speaker *
  **********************************/
-Ext.define('Event', {
+Ext.define('AIT.model.Event', {
 	extend: 'Ext.data.Model',
-	modelId: 'Event',
 	
 	/**********************************************
 	 * Config:
@@ -41,7 +40,7 @@ Ext.define('Event', {
     { name: 'date',  type: 'string' },
 		{ name: 'description', type: 'string' },
 		{ name: 'url', type: 'string' },
-		{ name: 'host', type: 'app.model.Company'}
+		{ name: 'host', type: 'AIT.model.Company'}
 	],
 
 	/**********************************************
@@ -57,7 +56,7 @@ Ext.define('Event', {
 	 * @arg {Object} host Config for host
 	 *********************************************/
 	applyHost: function(host){
-		return Ext.create('app.model.Company', host);
+		return Ext.create('AIT.model.Company', host);
 	},
 		
 	proxy: {

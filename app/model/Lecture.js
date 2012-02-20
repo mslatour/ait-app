@@ -5,9 +5,8 @@
  * information about the lecture  *
  * and a reference to the speaker *
  **********************************/
-Ext.define('Lecture', {
+Ext.define('AIT.model.Lecture', {
 	extend: 'Ext.data.Model',
-	modelId: 'Lecture',
 	
 	/**********************************************
 	 * Config:
@@ -41,7 +40,7 @@ Ext.define('Lecture', {
     { name: 'slot',  type: 'int' },
     { name: 'time',  type: 'string' },
 		{ name: 'description', type: 'string' },
-		{ name: 'speaker', type: 'app.model.Speaker'}
+		{ name: 'speaker', type: 'AIT.model.Speaker'}
 	],
 
 	/**********************************************
@@ -57,7 +56,7 @@ Ext.define('Lecture', {
 	 * @arg {Object} speaker Config for speaker
 	 *********************************************/
 	applySpeaker: function(speaker){
-		return Ext.create('app.model.Speaker', speaker);
+		return Ext.create('AIT.model.Speaker', speaker);
 	},
 		
 	proxy: {

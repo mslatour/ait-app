@@ -1,6 +1,5 @@
-Ext.define('Speaker', {
+Ext.define('AIT.model.Speaker', {
 	extend: 'Ext.data.Model',
-	modelId: 'Speaker',
 
 	/**********************************************
 	 * Config:

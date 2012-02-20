@@ -1,7 +1,7 @@
 Ext.log = console.log;
 
 Ext.application({
-	name: 'AWESOMEIT2012',
+	name: 'AIT',
 	appFolder: 'app',
 	models: ['Lecture','Speaker', 'Event', 'Company'],
 	launch: function(){ 

@@ -1,6 +1,5 @@
-Ext.define('Company', {
+Ext.define('AIT.model.Company', {
 	extend: 'Ext.data.Model',
-	modelId: 'Company',
 
 	/**********************************************
 	 * Config:
