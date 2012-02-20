@@ -1,130 +1,130 @@
 { lectures: [
-	{
-		title: "Future Home Care",
-		slot: 0,
-        language: "NL",
-        track: "Human",
-        time: "11:00 - 12:00",
-        description: "<p>Digitization of information and networking results in major changes in how Information Technology (IT) is used in society. Examples are IT in health care, monitoring of elderly, serious games, tele-working, interactive public spaces and digital access to museum collections. The availability of inexpensive sensors and actuators such as RFID, accelerometers, positioning systems, cameras, displays and controllers, combined with high- bandwidth communication is now considered the new breakthrough in IT. In his research at Universiteit van Amsterdam (UvA) and Hogeschool van Amsterdam (HvA) he focuses on methodologies for the analysis and fusion of large amounts of multimodal sensor data, and applications in health care and robotics. In his presentation he will focus on artificial intelligence methods for activity recognition in data from a sensor network for monitoring elderly, present some work on camera surveillance and introduce our Accompany project, focusing on an assistive robot for elderly.</p>",
-		speaker: {
-			firstname: "Ben",
-			surname: "Kr&#246;se",
-			affiliation: "University of Amsterdam",
-            url: "http://staff.science.uva.nl/~krose/"
-            description: "<p>Something about the speaker</p>",
-		}
-	},
-	{
-		title: "Cybernetics",
-		slot: 1,
-        language: "EN",
-        track: "IT",
-        time: "11:00 - 12:00",
-        description: "<p>In this talk Kevin Warwick will elaborate on his research on Cybernetics. Kevins research involves the invention of an intelligent deep brain stimulator to counteract the effects of Parkinson Disease tremors. The tremors are predicted and a current signal is applied to stop the tremors before they start this is to be trialled in human subjects. Another project involves the use of cultured/biological neural networks to drive robots around the brain of each robot is made of neural tissue. Perhaps Kevin is though best known for his pioneering experiments involving a neuro-surgical implantation into the median nerves of his left arm to link his nervous system directly to a computer to assess the latest technology for use with the disabled. He was successful with the first extra-sensory (ultrasonic) input for a human and with the first purely electronic telegraphic communication experiment between the nervous systems of two humans</p>",
-		speaker: {
-			firstname: "Kevin",
-			surname: "Warwick",
-			affiliation: "The University of Reading",
-            url: "http://www.kevinwarwick.com/",
-            description: "<p>Kevin Warwick is Professor of Cybernetics at the University of Reading, England, where he carries out research in artificial intelligence, control, robotics and cyborgs. Kevin was born in Coventry, UK and left school to join British Telecom, at the age of 16. At 22 he took his first degree at Aston University, followed by a PhD and research post at Imperial College, London. He subsequently held positions at Oxford, Newcastle and Warwick Universities before being offered the Chair at Reading, at the age of 33. As well as publishing over 500 research papers, Kevins experiments into implant technology led to him being featured as the cover story on the US magazine, Wired. Kevin has been awarded higher doctorates (DSc) both by Imperial College and the Czech Academy of Sciences, Prague, and received Honorary Doctorates from Aston University, Coventry University, Bradford University and Robert Gordon University. He was presented with The Future of Health Technology Award in MIT, was made an Honorary Member of the Academy of Sciences, St. Petersburg, and has received The IEE Senior Achievement Medal, the Mountbatten Medal and in 2011 the Ellison-Cliffe Medal from the Royal Society of Medicine. In 2000 Kevin presented the Royal Institution Christmas Lectures, entitled The Rise of the Robots.</p>"
-		}
-	},
-	{
-		title: "Mobile Learning",
-		slot: 2,
-        language: "NL",
-        track: "Human",
-        time: "12:15 - 13:15",
-        description: "<p>In this talk Jacobijn Sandber will elaborate on her research to Mobile Learning. Her current research project is Learning English on a mobile phone. The project is funded by the Dutch organisation for innovation in education, Kennisnet, and a collaboration between the University of Amsterdam and EarlyBird. The goal of the project is to find out if the application can contribute in teaching English to children. This is in line with Earlybirds teaching program for children from the age of four to twelve to learn English. The project is making Earlybirds program ready for the smartphone and focuses on children from eight to ten years old.</p>",
-		speaker: {
-			firstname: "Jacobijn",
-			surname: "Sandberg",
-			affiliation: "University of Amsterdam",
-            url: "http://www.science.uva.nl/~sandberg/",
-            description: "<p>Jacobijn Sandberg is lecturer and researcher at the University of Amsterdam. Her main research area is technology-enhanced learning. As a lecturer she teaches at both bachelor and master level. Her courses are in the areas of human-computer studies, research methods and advanced knowledge-based systems.</p>"
-		}
-	},
-	{
-		title: "Unconvetional Computing",
-		slot: 3,
-        language: "EN",
-        track: "IT",
-        time: "12:15 - 13:15",
-        description: "<p>In this talk Andrew Adamatzky will elaborate on his research on physarum computing. In his research he accomplished to make slime molds do mathematics on a agar plate. The agar plate, which has the form of a country, contains heaps of food on top of the important cities. Then the slime molds create a network to bind the food sources in a efficient way. The result of this research is remarkable as the slime mold map hardly differs from the original map for highways.</p>",
-		speaker: {
-			firstname: "Andrew",
-			surname: "Adamatzky",
-			affiliation: "University of the West of England",
-            url: "http://uncomp.uwe.ac.uk/adamatzky/",
-            description: "<p>Andrew Adamatzky is Professor in Unconventional Computing at the University of West England. He researches reaction-diffusion computing, cellular automata, physarum computing, massive parallel computation, applied mathematics, collective intelligence and robotics. He is amir of the Unconventional Computing Centre and a member of Bristol Robotics Lab.</p>"
-		}
-	},
+  {
+    title: "Future Home Care",
+    slot: 0,
+    language: "NL",
+    track: "Human",
+    time: "11:00 - 12:00",
+    description: "<p>Digitization of information and networking results in major changes in how Information Technology (IT) is used in society. Examples are IT in health care, monitoring of elderly, serious games, tele-working, interactive public spaces and digital access to museum collections. The availability of inexpensive sensors and actuators such as RFID, accelerometers, positioning systems, cameras, displays and controllers, combined with high- bandwidth communication is now considered the new breakthrough in IT. In his research at Universiteit van Amsterdam (UvA) and Hogeschool van Amsterdam (HvA) he focuses on methodologies for the analysis and fusion of large amounts of multimodal sensor data, and applications in health care and robotics. In his presentation he will focus on artificial intelligence methods for activity recognition in data from a sensor network for monitoring elderly, present some work on camera surveillance and introduce our Accompany project, focusing on an assistive robot for elderly.</p>",
+    speaker: {
+      firstname: "Ben",
+      surname: "Kr&#246;se",
+      affiliation: "University of Amsterdam",
+      url: "http://staff.science.uva.nl/~krose/",
+      description: "<p>Something about the speaker</p>",
+    }
+  },
+  {
+    title: "Cybernetics",
+    slot: 1,
+    language: "EN",
+    track: "IT",
+    time: "11:00 - 12:00",
+    description: "<p>In this talk Kevin Warwick will elaborate on his research on Cybernetics. Kevins research involves the invention of an intelligent deep brain stimulator to counteract the effects of Parkinson Disease tremors. The tremors are predicted and a current signal is applied to stop the tremors before they start this is to be trialled in human subjects. Another project involves the use of cultured/biological neural networks to drive robots around the brain of each robot is made of neural tissue. Perhaps Kevin is though best known for his pioneering experiments involving a neuro-surgical implantation into the median nerves of his left arm to link his nervous system directly to a computer to assess the latest technology for use with the disabled. He was successful with the first extra-sensory (ultrasonic) input for a human and with the first purely electronic telegraphic communication experiment between the nervous systems of two humans</p>",
+    speaker: {
+      firstname: "Kevin",
+      surname: "Warwick",
+      affiliation: "The University of Reading",
+      url: "http://www.kevinwarwick.com/",
+      description: "<p>Kevin Warwick is Professor of Cybernetics at the University of Reading, England, where he carries out research in artificial intelligence, control, robotics and cyborgs. Kevin was born in Coventry, UK and left school to join British Telecom, at the age of 16. At 22 he took his first degree at Aston University, followed by a PhD and research post at Imperial College, London. He subsequently held positions at Oxford, Newcastle and Warwick Universities before being offered the Chair at Reading, at the age of 33. As well as publishing over 500 research papers, Kevins experiments into implant technology led to him being featured as the cover story on the US magazine, Wired. Kevin has been awarded higher doctorates (DSc) both by Imperial College and the Czech Academy of Sciences, Prague, and received Honorary Doctorates from Aston University, Coventry University, Bradford University and Robert Gordon University. He was presented with The Future of Health Technology Award in MIT, was made an Honorary Member of the Academy of Sciences, St. Petersburg, and has received The IEE Senior Achievement Medal, the Mountbatten Medal and in 2011 the Ellison-Cliffe Medal from the Royal Society of Medicine. In 2000 Kevin presented the Royal Institution Christmas Lectures, entitled The Rise of the Robots.</p>"
+    }
+  },
+  {
+    title: "Mobile Learning",
+    slot: 2,
+    language: "NL",
+    track: "Human",
+    time: "12:15 - 13:15",
+    description: "<p>In this talk Jacobijn Sandber will elaborate on her research to Mobile Learning. Her current research project is Learning English on a mobile phone. The project is funded by the Dutch organisation for innovation in education, Kennisnet, and a collaboration between the University of Amsterdam and EarlyBird. The goal of the project is to find out if the application can contribute in teaching English to children. This is in line with Earlybirds teaching program for children from the age of four to twelve to learn English. The project is making Earlybirds program ready for the smartphone and focuses on children from eight to ten years old.</p>",
+    speaker: {
+      firstname: "Jacobijn",
+      surname: "Sandberg",
+      affiliation: "University of Amsterdam",
+      url: "http://www.science.uva.nl/~sandberg/",
+      description: "<p>Jacobijn Sandberg is lecturer and researcher at the University of Amsterdam. Her main research area is technology-enhanced learning. As a lecturer she teaches at both bachelor and master level. Her courses are in the areas of human-computer studies, research methods and advanced knowledge-based systems.</p>"
+    }
+  },
+  {
+    title: "Unconvetional Computing",
+    slot: 3,
+    language: "EN",
+    track: "IT",
+    time: "12:15 - 13:15",
+    description: "<p>In this talk Andrew Adamatzky will elaborate on his research on physarum computing. In his research he accomplished to make slime molds do mathematics on a agar plate. The agar plate, which has the form of a country, contains heaps of food on top of the important cities. Then the slime molds create a network to bind the food sources in a efficient way. The result of this research is remarkable as the slime mold map hardly differs from the original map for highways.</p>",
+    speaker: {
+      firstname: "Andrew",
+      surname: "Adamatzky",
+      affiliation: "University of the West of England",
+      url: "http://uncomp.uwe.ac.uk/adamatzky/",
+      description: "<p>Andrew Adamatzky is Professor in Unconventional Computing at the University of West England. He researches reaction-diffusion computing, cellular automata, physarum computing, massive parallel computation, applied mathematics, collective intelligence and robotics. He is amir of the Unconventional Computing Centre and a member of Bristol Robotics Lab.</p>"
+    }
+  },
     {
         title: "Break",
         slot: 91,
         time: "13:15 - 14:15",
         description: "Lunch at the Foyer Erasmus, Vide and Bar on the first floor"
     },
-	{
-		title: "Interactive Advertising",
-		slot: 4,
-        language: "EN",
-        track: "Human",
-        time: "14:15 - 15:15",
-        description: "<p>In this talk Theo Gevers will elaborate on his recent developed software for Interactive Advertising. His interest lies in the field of Artificial Intelligence (AI) and in particular that of perception, reasoning and strategic planning. Additionally, he conducted research on the recognition of social signals by computer software. Through video analysis of faces, the software is able to identify behavior such as age, facial expressions, emotions and aggression.</p>",
-		speaker: {
-			firstname: "Theo",
-			surname: "Gevers",
-			affiliation: "University of Amsterdam",
-            url: "http://staff.science.uva.nl/~gevers/",
-            description: "<p>Theo Gevers works at the University of Amsterdam (UvA) and the University of Barcelona (UB). He is director of the Master in Artificial Intelligence (UvA). Furthermore, he is VICI laureate (NWO) and founder of the company ThirdSight that deals with automatic recognition of human behavior.</p>"
-		}
-	},
-	{
-		title: "Augmented Reality",
-		slot: 5,
-        language: "NL",
-        track: "IT",
-        time: "14:15 - 15:15",
-        description: "<p>In this talk Pieter Jonker will elaborate on his recent developed head-mounted device. He currently works at the CSI lab (Crime Scene Investigation Lab), a high-tech training and demonstration facility for crime scene investigation. In the test laboratory working at the crime scene in a physical or virtual environment can be stimulated. One of the innovations the laboratory developed is the head-mounted device, a type of virtual reality glasses.</p>",
-		speaker: {
-			firstname: "Pieter",
-			surname: "Jonker",
-			affiliation: "Technical University Delft",
-            url: "",
-            description: "<p>Pieter Jonker is professor and lecturer in applied physics at the Delft University of Technology (TU Delft). He is also part time professor Embedded Vision of the Eindhoven University of Technology (TU/e) in the Dynamics and Control Theory Group. His main interests and field of research are: real-time embedded image processing, robot vision, robot learning, vision based motion control and augmented reality. His research concentrates on the interaction between the sight of the machine and the control technology.</p>"
-		}
-	},
-	{
-		title: "Network Neutrality",
-		slot: 6,
-        language: "NL",
-        track: "Human",
-        time: "15:30 - 16:30",
-        description: "<p>Something about the lecture</p>",
-		speaker: {
-			firstname: "Rejo",
-			surname: "Zenger",
-			affiliation: "Bits of Freedom",
-            url: "https://rejo.zenger.nl/",
-            description: "<p>Rejo Zenger is a researcher at Bits of Freedom. Here he is concerned with the protection of communications freedom and privacy of internet users. He deals with topics such as data retention, the interception of telecommunications and the duty to report data breaches. Previously he worked as a system administrator for some internet providers.</p>"
-		}
-	},
-	{
-		title: "Autonomous Cars",
-		slot: 7,
-        language: "EN",
-        track: "IT",
-        time: "15:30 - 16:30",
-        description: "<p>One of the most significant large-scale deployment of intelligent systems in our daily life nowadays involves driver assistance in smart cars. Driver assistance systems use sensors to monitor the car surroundings or interior. They warn the driver in case of pending danger, and even act automatically if necessary. As such, they have major potential to reduce accidents. Darius talk starts with an overview of currently available driver assistance. then moves on to his longstanding research on active pedestrian protection, presenting, among others, a prototype system for automatic vehicle braking and evasive steering. He concludes with some thoughts on future autonomous cars.</p>",
-		speaker: {
-			firstname: "Dariu",
-			surname: "Gavrila",
-			affiliation: "Daimler",
-            url: "http://www.gavrila.net/",
-            description: "<p>Dariu M. Gavrila received the MSc degree in computer science from the Vrije University in Amsterdam in 1990. He received the PhD degree in computer science from the University of Maryland at College Park in 1996. He was a Visiting Researcher at the MIT Media Laboratory in 1996. Since 1997, he has been a Senior Research Scientist at Daimler Research in Ulm, Germany. In 2003, he was named professor in the Faculty of Science at the University of Amsterdam, chairing the area of Intelligent Perception Systems (part time). Over the last decade, Prof. Gavrila focused on perception systems for detecting humans and their activity, with application to intelligent vehicles and surveillance. He published numerous papers in leading conferences and journals, and he received the I/O 2007 Award from the Netherlands Organisation for Scientific Research (NWO), as well as several conference paper awards.</p>"
-		}
-	},
+  {
+    title: "Interactive Advertising",
+    slot: 4,
+    language: "EN",
+    track: "Human",
+    time: "14:15 - 15:15",
+    description: "<p>In this talk Theo Gevers will elaborate on his recent developed software for Interactive Advertising. His interest lies in the field of Artificial Intelligence (AI) and in particular that of perception, reasoning and strategic planning. Additionally, he conducted research on the recognition of social signals by computer software. Through video analysis of faces, the software is able to identify behavior such as age, facial expressions, emotions and aggression.</p>",
+    speaker: {
+      firstname: "Theo",
+      surname: "Gevers",
+      affiliation: "University of Amsterdam",
+      url: "http://staff.science.uva.nl/~gevers/",
+      description: "<p>Theo Gevers works at the University of Amsterdam (UvA) and the University of Barcelona (UB). He is director of the Master in Artificial Intelligence (UvA). Furthermore, he is VICI laureate (NWO) and founder of the company ThirdSight that deals with automatic recognition of human behavior.</p>"
+    }
+  },
+  {
+    title: "Augmented Reality",
+    slot: 5,
+    language: "NL",
+    track: "IT",
+    time: "14:15 - 15:15",
+    description: "<p>In this talk Pieter Jonker will elaborate on his recent developed head-mounted device. He currently works at the CSI lab (Crime Scene Investigation Lab), a high-tech training and demonstration facility for crime scene investigation. In the test laboratory working at the crime scene in a physical or virtual environment can be stimulated. One of the innovations the laboratory developed is the head-mounted device, a type of virtual reality glasses.</p>",
+    speaker: {
+      firstname: "Pieter",
+      surname: "Jonker",
+      affiliation: "Technical University Delft",
+      url: "",
+      description: "<p>Pieter Jonker is professor and lecturer in applied physics at the Delft University of Technology (TU Delft). He is also part time professor Embedded Vision of the Eindhoven University of Technology (TU/e) in the Dynamics and Control Theory Group. His main interests and field of research are: real-time embedded image processing, robot vision, robot learning, vision based motion control and augmented reality. His research concentrates on the interaction between the sight of the machine and the control technology.</p>"
+    }
+  },
+  {
+    title: "Network Neutrality",
+    slot: 6,
+    language: "NL",
+    track: "Human",
+    time: "15:30 - 16:30",
+    description: "<p>Something about the lecture</p>",
+    speaker: {
+      firstname: "Rejo",
+      surname: "Zenger",
+      affiliation: "Bits of Freedom",
+      url: "https://rejo.zenger.nl/",
+      description: "<p>Rejo Zenger is a researcher at Bits of Freedom. Here he is concerned with the protection of communications freedom and privacy of internet users. He deals with topics such as data retention, the interception of telecommunications and the duty to report data breaches. Previously he worked as a system administrator for some internet providers.</p>"
+    }
+  },
+  {
+    title: "Autonomous Cars",
+    slot: 7,
+    language: "EN",
+    track: "IT",
+    time: "15:30 - 16:30",
+    description: "<p>One of the most significant large-scale deployment of intelligent systems in our daily life nowadays involves driver assistance in smart cars. Driver assistance systems use sensors to monitor the car surroundings or interior. They warn the driver in case of pending danger, and even act automatically if necessary. As such, they have major potential to reduce accidents. Darius talk starts with an overview of currently available driver assistance. then moves on to his longstanding research on active pedestrian protection, presenting, among others, a prototype system for automatic vehicle braking and evasive steering. He concludes with some thoughts on future autonomous cars.</p>",
+    speaker: {
+      firstname: "Dariu",
+      surname: "Gavrila",
+      affiliation: "Daimler",
+      url: "http://www.gavrila.net/",
+      description: "<p>Dariu M. Gavrila received the MSc degree in computer science from the Vrije University in Amsterdam in 1990. He received the PhD degree in computer science from the University of Maryland at College Park in 1996. He was a Visiting Researcher at the MIT Media Laboratory in 1996. Since 1997, he has been a Senior Research Scientist at Daimler Research in Ulm, Germany. In 2003, he was named professor in the Faculty of Science at the University of Amsterdam, chairing the area of Intelligent Perception Systems (part time). Over the last decade, Prof. Gavrila focused on perception systems for detecting humans and their activity, with application to intelligent vehicles and surveillance. He published numerous papers in leading conferences and journals, and he received the I/O 2007 Award from the Netherlands Organisation for Scientific Research (NWO), as well as several conference paper awards.</p>"
+    }
+  },
     {
         title: "Drinks",
         slot: 92,
