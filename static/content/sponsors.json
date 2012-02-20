@@ -1,16 +1,30 @@
 { sponsors: [
   {
-    name: "Sponsor A",
-    group: "Silver sponsors",
-    description: "<p>Company that supported us by becoming a silver sponsor.</p>",
-    url: "http://www.sponsora.com",
-    email: "info@sponsora.com"
+    name: "Star Apple",
+    group: "Premium Sponsors",
+    description: "Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.",
+    url: "www.starapple.nl",
+    email: "info@starapple.nl"
   },
   {
-    name: "Sponsor B",
-    group: "Silver sponsors",
-    description: "<p>Another company that supported us by becoming a silver sponsor.</p>",
-    url: "http://www.sponsorb.com",
-    email: "info@sponsorb.com"
+    name: "Hyves",
+    group: "General sponsors",
+    description: "",
+    url: "www.hyves.nl",
+    email: ""
+  },
+  {
+    name: "Procam",
+    group: "General sponsors",
+    description: "",
+    url: "www.procam.nl",
+    email: ""
+  },
+  {
+    name: "Universiteit van Amsterdam",
+    group: "General sponsors",
+    description: "",
+    url: "www.uva.nl",
+    email: ""
   }
 ]}
