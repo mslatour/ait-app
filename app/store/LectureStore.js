@@ -17,7 +17,7 @@ Ext.create('Ext.data.Store', {
     url: "static/content/lectures.json",
     reader: {
       type: "json",
-      root: "lectures"
+      rootProperty: "lectures"
     }
   },
   autoLoad: true
