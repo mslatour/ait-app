@@ -9,7 +9,7 @@ function init_sponsor_components(){
     grouped: true,
     listeners: {
       select: function(){
-        var record = this.getSelected();
+        var record = this.selected
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );

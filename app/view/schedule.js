@@ -9,7 +9,7 @@ function init_schedule_components(){
     grouped: true,
     listeners: {
       select: function(){
-        var record = this.getSelected();
+        var record = this.selected
         COMP_SCHEDULE_DETAILS_CONTENT.setData(
           record.items[0].data
         );
