@@ -4,7 +4,7 @@ var SPLASH;
 Ext.application({
 	name: 'AIT',
 	appFolder: 'app',
-	models: ['Lecture','Speaker', 'Event', 'Company'],
+	models: ['Lecture','Speaker', 'Event', 'Company', 'Vacancy'],
   phoneStartupScreen: "splash-phone.png ",
 	launch: function(){ 
     SPLASH = Ext.create('Ext.Panel', {
