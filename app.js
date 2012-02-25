@@ -1,5 +1,6 @@
 Ext.log = console.log;
 
+var SPLASH;
 Ext.application({
 	name: 'AIT',
 	appFolder: 'app',
@@ -12,7 +13,7 @@ Ext.application({
       fullscreen: true,
       html: "SPLASH!"
     });
-    setTimeout("SPLASH.hidden = true; SPLASH.fullscreen = false;", 2000);
+    setTimeout("alert(1); SPLASH.hidden = true; SPLASH.fullscreen = false;", 2000);
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
