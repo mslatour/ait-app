@@ -2,10 +2,12 @@ var TPL_SCHEDULE_DETAILS, TPL_EVENTS_DETAILS, TPL_SPONSOR_LIST, TPL_SPONSOR_DETA
 Ext.require("Ext.XTemplate", function(){
   TPL_SCHEDULE_DETAILS = new Ext.XTemplate(
     '<div class="lecture-details">',
+      '<tpl if="speaker">',
       '<div class="speaker">',
         '<span class="name">',
           '{speaker.firstname} {speaker.surname}', 
         '</span>',
+
         '<span class="affiliation">', 
           '{speaker.affiliation}', 
         '</span>',
@@ -16,6 +18,7 @@ Ext.require("Ext.XTemplate", function(){
           '{speaker.description}', 
         '</div>',
       '</div>',
+    '</tpl>',
     '<span class="title">{title}</span>',
     '<span class="time">{time}</span>',
     '<div class="description">{description}</div>',
