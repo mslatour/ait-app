@@ -23,7 +23,7 @@ Ext.application({
           maxWidth: "70%",
           maxHeight: "70%",
           centered: true,
-          src: "<img src='splash-phone.png' width='80%' style='max-height: 80%' />"
+          html: "<img src='splash-phone.png' />"
         }
       ]
     });
