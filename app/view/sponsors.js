@@ -50,7 +50,7 @@ function init_sponsor_components(){
           COMP_SPONSORS_DETAILS.setActiveItem(0);
         }
       },
-      {
+      /*{
         xtype: "button",
         margin: "5px 0px",
         iconCls: "bookmarks",
@@ -58,7 +58,7 @@ function init_sponsor_components(){
         handler: function(){
           COMP_SPONSORS_DETAILS.setActiveItem(1);
         }
-      },
+      },*/
       {
         xtype: "button",
         margin: "5px 0px",
