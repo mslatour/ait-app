@@ -12,6 +12,7 @@ Ext.define('AIT.model.Company', {
 	config: {
 		name: null,	        // Name of the company (String)
 		group: null,	      // Sponsor group of the company (String)
+    logo: null,         // URL to the logo of the company (String)
 		description: null,  // Short description about the company (String)
 		url: null,		      // URL to the website of the company (String)
 		email: null,	      // Email of the company (String)
