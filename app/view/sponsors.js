@@ -5,7 +5,10 @@ function init_sponsor_components(){
   COMP_SPONSORS_LIST = Ext.create('Ext.List',{
     xtype: 'list',
     store: 'sponsorStore',
-    itemTpl: '<img height="62" src="{logo}" />',
+    itemTpl: '<tpl switch="group">'+
+             '<tpl case="Premium Sponsors">'+
+             '<img height="62" src="{logo}" />'+
+             '<tpl default>{name}</tpl>',
     grouped: true,
     listeners: {
       select: function(){
