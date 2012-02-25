@@ -22,7 +22,7 @@ Ext.application({
           flex: 1,
           //max-width: "70%",
 //          max-height: "70%",
-          centered: true,
+//          centered: true,
           src: "splash-phone.png"
         }
       ]
