@@ -60,12 +60,14 @@ Ext.require("Ext.XTemplate", function(){
 
   TPL_SPONSOR_DETAILS = new Ext.XTemplate(
     '<div class="sponsor-details">',
-       '<img src="{logo}" />',
        '<span class="name">{name}</span>',
+       '<img src="{logo}" />',
        '<span class="url">WWW: <a href="{url}">{url}</a></span>',
+       '<tpl if="email">',
        '<span class="email">Email: ', 
          '<a href="mailto:{email}">{email}</a>', 
        '</span>',
+       '</tpl>',
        '<div class="description">{description}</div>',
     '</div>'
   );
