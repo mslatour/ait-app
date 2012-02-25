@@ -22,7 +22,10 @@ Ext.application({
 //          centered: true,
 //          maxWidth: "70%",
 //          width: "100px",
-          src: "splash-phone.png"
+          src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
+          height: 64,
+          width 64
+//          src: "splash-phone.png"
 //          html: "<img src='splash-phone.png' style='max-height: 70%; max-width: 70%;' />"
         }
       ]
