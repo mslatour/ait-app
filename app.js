@@ -12,6 +12,7 @@ Ext.application({
       fullscreen: true,
       html: "SPLASH!"
     });
+    setTimeout("SPLASH.hidden = true; SPLASH.fullscreen = false;", 2000);
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
