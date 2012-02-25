@@ -4,6 +4,7 @@ Ext.application({
 	name: 'AIT',
 	appFolder: 'app',
 	models: ['Lecture','Speaker', 'Event', 'Company'],
+  phoneStartupScreen: "starapple.jpg",
 	launch: function(){ 
     init_components();
     
