@@ -13,7 +13,11 @@ Ext.application({
       floating: true,
       model: true,
       centered: true,
-      html: "SPLASH!"
+      items: [{
+        xtype: "image",
+        src="splash-phone.png",
+        width: "100%"
+      }]
     });
     SPLASH.show('pop');
     
