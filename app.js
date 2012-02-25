@@ -19,7 +19,7 @@ Ext.application({
       items: [
         {
           xtype: "image",
-//          centered: true,
+          centered: true,
 //          maxWidth: "70%",
 //          width: "100px",
           src: 'http://www.sencha.com/assets/images/sencha-avatar-64x64.png',
