@@ -12,10 +12,16 @@ Ext.application({
     SPLASH = Ext.create('Ext.Panel', {
       floating: true,
       model: true,
-      width: "80%",
-      height: "80%",
+      width: "100%",
+      height: "100%",
+      border: 0,
       centered: true,
-      html: "<img src='splash-phone.png' style='max-width: 100%' />"
+      items: [
+        {
+          centered: true;
+          html: "<img src='splash-phone.png' style='max-width: 70%; max-height: 70%;' />"
+        }
+      ]
     });
     SPLASH.show('pop');
     
