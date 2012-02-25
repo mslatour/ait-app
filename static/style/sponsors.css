@@ -5,6 +5,7 @@
 
 .sponsor-details img {
   max-height: 100px;
+  max-width: 90%;
 }
 
 .sponsor-details .name {
