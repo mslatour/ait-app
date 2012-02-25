@@ -1,6 +1,7 @@
 { sponsors: [
   {
     name: "Star Apple",
+    logo: "starapple.jpg",
     group: "Premium Sponsors",
     description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
     url: "www.starapple.nl",
@@ -8,6 +9,7 @@
   },
   {
     name: "Hyves",
+    logo: "hyves.jpg",
     group: "General sponsors",
     description: "",
     url: "www.hyves.nl",
@@ -15,6 +17,7 @@
   },
   {
     name: "Procam",
+    logo: "procam",
     group: "General sponsors",
     description: "",
     url: "www.procam.nl",
@@ -22,6 +25,7 @@
   },
   {
     name: "Universiteit van Amsterdam",
+    logo: "uva.jpg",
     group: "General sponsors",
     description: "",
     url: "www.uva.nl",
