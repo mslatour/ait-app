@@ -11,7 +11,7 @@ Ext.application({
     SPLASH = Ext.create('Ext.Panel', {
       fullscreen: true,
       html: "SPLASH!"
-    }
+    });
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
