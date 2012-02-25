@@ -10,10 +10,12 @@ Ext.application({
     init_components();
   
     SPLASH = Ext.create('Ext.Panel', {
-      fullscreen: true,
+      floating: true,
+      model: true,
+      centered: true,
       html: "SPLASH!"
     });
-    setTimeout("alert(1); SPLASH.setHidden(true);", 2000);
+    
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
       fullscreen: true,
