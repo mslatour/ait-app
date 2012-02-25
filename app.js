@@ -20,8 +20,8 @@ Ext.application({
         {
           xtype: "image",
           flex: 1,
-          max-width: "70%",
-          max-height: "70%",
+          //max-width: "70%",
+//          max-height: "70%",
           centered: true,
           src: "splash-phone.png"
         }
