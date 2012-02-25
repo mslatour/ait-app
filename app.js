@@ -7,7 +7,6 @@ Ext.application({
 	models: ['Lecture','Speaker', 'Event', 'Company'],
   phoneStartupScreen: "splash-phone.png ",
 	launch: function(){ 
-    init_components();
   
     SPLASH = Ext.create('Ext.Panel', {
       floating: true,
@@ -26,6 +25,7 @@ Ext.application({
       ]
     });
     SPLASH.show('pop');
+    init_components();
     
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
@@ -61,5 +61,6 @@ Ext.application({
         delegate: 'a'
       }
     );
+    SPLASH.hide()
 	}
 });
