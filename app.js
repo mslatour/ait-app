@@ -15,11 +15,7 @@ Ext.application({
       width: "80%",
       height: "80%",
       centered: true,
-      items: [{
-        xtype: "image",
-        src: "splash-phone.png",
-        style: "max-width: 100%"
-      }]
+      html: "<img src='splash-phone.png' style='max-width: 100%'"
     });
     SPLASH.show('pop');
     
