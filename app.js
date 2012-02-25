@@ -19,8 +19,9 @@ Ext.application({
       items: [
         {
           xtype: "image",
-          centered: true,
-          maxWidth: "70%",
+//          centered: true,
+//          maxWidth: "70%",
+//          width: "100px",
           src: "splash-phone.png"
 //          html: "<img src='splash-phone.png' style='max-height: 70%; max-width: 70%;' />"
         }
