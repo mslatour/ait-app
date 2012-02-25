@@ -18,8 +18,7 @@ Ext.application({
       centered: true,
       items: [
         {
-          type: "image",
-          flex: 1,
+          xtype: "image",
           centered: true,
           maxWidth: "70%",
           src: "splash-phone.png"
