@@ -15,6 +15,7 @@ Ext.application({
       centered: true,
       html: "SPLASH!"
     });
+    SPLASH.show('pop');
     
     // Create menu
     COMP_MAIN_MENU = Ext.create('Ext.TabPanel', {
