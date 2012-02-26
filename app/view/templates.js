@@ -25,6 +25,20 @@ Ext.require("Ext.XTemplate", function(){
     '</div>',
     {}
   );
+  
+  TPL_VACANIES_DETAILS = new Ext.XTemplate(
+    '<div class="vacancy-details">',
+       '<span class="title">{title}</span>',
+       '<div class="description">{description}</div>',
+       '<div class="url"><a href="{url}">{url}</a></div>',
+       '<div class="email"><a href="{url}">{url}</a></div>',
+       '<div class="host">',
+         '<span class="name">',
+           '{company}', 
+         '</span>',
+       '</div>',
+    '</div>'
+  );
 
   TPL_EVENTS_DETAILS = new Ext.XTemplate(
     '<div class="event-details">',

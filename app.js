@@ -41,11 +41,7 @@ Ext.application({
         COMP_TAB_CONTACT,
         COMP_TAB_EVENTS,
         COMP_TAB_SPONSORS,
-        {
-          title: 'Vacancies',
-          iconCls: 'team',
-          html: 'Job and internship opportunities.'
-        }
+        COMP_TAB_VACANCIES
       ]
     });
    
