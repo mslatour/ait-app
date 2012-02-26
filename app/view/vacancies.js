@@ -6,7 +6,6 @@ function init_vacancies_components(){
     xtype: 'list',
     store: 'vacancyStore',
     itemTpl: '{title}',
-    grouped: true,
     listeners: {
       select: function(){
         var record = this.selected

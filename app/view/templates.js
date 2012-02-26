@@ -31,7 +31,7 @@ Ext.require("Ext.XTemplate", function(){
        '<span class="title">{title}</span>',
        '<div class="description">{description}</div>',
        '<div class="url"><a href="{url}">{url}</a></div>',
-       '<div class="email"><a href="{url}">{url}</a></div>',
+       '<div class="email"><a href="mailto:{email}">{email}</a></div>',
        '<div class="host">',
          '<span class="name">',
            '{company}', 
