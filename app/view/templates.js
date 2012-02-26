@@ -1,4 +1,4 @@
-var TPL_SCHEDULE_DETAILS, TPL_EVENTS_DETAILS, TPL_SPONSOR_LIST, TPL_SPONSOR_DETAILS, TPL_VACANIES_DETAILS;
+var TPL_SCHEDULE_DETAILS, TPL_EVENTS_DETAILS, TPL_SPONSOR_LIST, TPL_SPONSOR_DETAILS, TPL_VACANCIES_DETAILS;
 Ext.require("Ext.XTemplate", function(){
   TPL_SCHEDULE_DETAILS = new Ext.XTemplate(
     '<div class="lecture-details">',
@@ -26,7 +26,7 @@ Ext.require("Ext.XTemplate", function(){
     {}
   );
   
-  TPL_VACANIES_DETAILS = new Ext.XTemplate(
+  TPL_VACANCIES_DETAILS = new Ext.XTemplate(
     '<div class="vacancy-details">',
        '<span class="title">{title}</span>',
        '<div class="description">{description}</div>',
