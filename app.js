@@ -42,7 +42,14 @@ Ext.application({
         COMP_TAB_EVENTS,
         COMP_TAB_SPONSORS,
         COMP_TAB_VACANCIES
-      ]
+      ],
+      listeners: {
+        activeitemchange : function(this, value, old, options){
+          if(value == 4){
+            COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().clearFilter();
+          }
+        }
+      }
     });
    
     // Fix: links were not clickable on mobile phones
