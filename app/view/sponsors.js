@@ -109,6 +109,7 @@ function init_sponsor_components(){
       scope: COMP_VACANCIES_LIST
     }
   });
+  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.store.filter("host","Star Apple");
   
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
     hidden: true,
