@@ -29,9 +29,9 @@ Ext.require("Ext.XTemplate", function(){
   TPL_VACANCIES_DETAILS = new Ext.XTemplate(
     '<div class="vacancy-details">',
        '<span class="title">{title}</span>',
+       '<div class="email">Contact: <a href="mailto:{email}">{email}</a></div>',
        '<div class="description">{description}</div>',
-       '<div class="url"><a href="{url}">{url}</a></div>',
-       '<div class="email"><a href="mailto:{email}">{email}</a></div>',
+       '<div class="url"><a href="{url}">Click here for more information</a></div>',
        '<div class="host">',
          '<span class="name">',
            '{company}', 
