@@ -44,8 +44,8 @@ Ext.application({
         COMP_TAB_VACANCIES
       ],
       listeners: {
-        activeitemchange : function(this, value, old, options){
-          if(value == 4){
+        activeitemchange : function(t, value, old, options){
+          if(value.title == "Vacancies"){
             COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().clearFilter();
           }
         }
