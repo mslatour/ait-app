@@ -66,7 +66,9 @@ function init_sponsor_components(){
         iconMask: true,
         handler: function(){
           var company = COMP_SPONSORS_DETAILS_INFO_CONTENT.getData()
-          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().filter("company",company.name);
+          var store = COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore();
+          store.clearFilter();
+          store.filter("company",company.name);
           COMP_SPONSORS_DETAILS.setActiveItem(2);
         }
       }
