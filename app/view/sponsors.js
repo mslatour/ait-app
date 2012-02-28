@@ -95,11 +95,19 @@ function init_sponsor_components(){
     }
   });
   
-  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.Panel', {
-    scrollable: {
-        direction: "vertical"
-    },
-    html: "No vacancies"
+  COMP_SPONSORS_DETAILS_VACANCIES_CONTENT = Ext.create('Ext.List', {
+    store: 'vacancyStore',
+    itemTpl: '{title}',
+    listeners: {
+      select: function(){
+        var record = this.selected
+        COMP_VACANCIES_DETAILS_CONTENT.setData(
+          record.items[0].data
+        );
+        COMP_TAB_VACANCIES.setActiveItem(1)
+      },
+      scope: COMP_VACANCIES_LIST
+    }
   });
   
   COMP_SPONSORS_DETAILS = Ext.create('Ext.Panel', {
