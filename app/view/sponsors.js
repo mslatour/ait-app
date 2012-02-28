@@ -65,8 +65,8 @@ function init_sponsor_components(){
         iconCls: "team",
         iconMask: true,
         handler: function(){
-          var data = COMP_SPONSORS_DETAILS_INFO_CONTENT.getData()
-          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().filter("company","Star Apple");
+          var company = COMP_SPONSORS_DETAILS_INFO_CONTENT.getData()
+          COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().filter("company",company.name);
           COMP_SPONSORS_DETAILS.setActiveItem(2);
         }
       }
