@@ -56,6 +56,13 @@ function init_sponsor_components(){
         iconCls: "bookmarks",
         iconMask: true,
         handler: function(){
+          var company = COMP_SPONSORS_DETAILS_INFO_CONTENT.getData()
+          var store = COMP_SPONSORS_DETAILS_EVENTS_CONTENT.getStore();
+          store.clearFilter();
+          store.filterBy(function(record, id){
+            var host = record.get("host");       
+            return (host.name == company.name);
+          });
           COMP_SPONSORS_DETAILS.setActiveItem(1);
         }
       },
