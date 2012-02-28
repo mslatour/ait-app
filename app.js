@@ -47,6 +47,8 @@ Ext.application({
         activeitemchange : function(t, value, old, options){
           if(value.title == "Vacancies"){
             COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore().clearFilter();
+          }else if(value.title == "Events"){
+            COMP_SPONSORS_DETAILS_EVENTS_CONTENT.getStore().clearFilter();
           }
         }
       }
