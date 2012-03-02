@@ -56,6 +56,7 @@ Ext.require("Ext.XTemplate", function(){
        '<span class="date">{date}</span>',
        '<div class="description">{description}</div>',
        '<div class="url"><a href="{url}">{url}</a></div>',
+       '<hr />',
        '<div class="host">',
          '<span class="name">',
            '{host.name}', 
