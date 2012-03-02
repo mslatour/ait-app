@@ -1,31 +1,31 @@
-.host {
+.contact-details .host {
 	padding: 0px 5px 5px 5px;
 	font-size: medium;
 }
 
-.host .description {
+.contact-details .host .description {
 	font-size: large;
 }
 
-.host li {
+.contact-details .host li {
 	padding-left: 1em;
 }
 
-.host div {
+.contact-details .host div {
 	padding-top: 10px;
 }
 
-address {
+.contact-details address {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 }
 
-address .name {
+.contact-details address .name {
 	font-size: large;
 	font-weight: bold;
 }
 
-address label {
+.contact-details address label {
 	font-weight: bold;
 }

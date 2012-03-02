@@ -2,10 +2,10 @@ Ext.create('Ext.data.Store', {
   storeId: 'vacancyStore',
   fields: [
     { name: 'title', type: 'string' },
-    { name: 'company', type: 'string' },
     { name: 'description', type: 'string' },
     { name: 'email', type: 'string' },
-    { name: 'url', type: 'string' }
+    { name: 'url', type: 'string' },
+    { name: 'employer', type: 'AIT.model.Company' }
   ],
   grouper: {
     groupFn: function(record){

@@ -34,8 +34,27 @@
   font-size: large;
 }
 
+.event-details .host .url {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  font-size: small;
+}
+
+.event-details .host .url a {
+  font-weight: normal;
+  font-size: medium;
+}
+
 .event-details .host .email {
   display: block;
+  font-size: small;
+  font-weight: bold;
+}
+
+.event-details .host .email a {
+  font-weight: normal;
+  font-size: medium;
 }
 
 .event-details .host .description p{

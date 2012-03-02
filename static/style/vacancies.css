@@ -23,13 +23,40 @@
   margin: 10px 0 0 0;
 }
 
-.vacancy-details .host {
+.vacancy-details .employer {
   margin-top: 10px;
   padding-top: 5px;
 }
 
-.vacancy-details .host .name {
+.vacancy-details .employer .name {
   font-weight: bold;
   display: block;
   font-size: large;
+}
+
+.vacancy-details .employer .url {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  font-size: small;
+}
+
+.vacancy-details .employer .url a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.vacancy-details .employer .email {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
+
+.vacancy-details .employer .email a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.vacancy-details .employer .description p{
+  margin: 10px 0 0 0;
 }

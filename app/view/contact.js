@@ -8,7 +8,8 @@ function init_contact_components(){
     scrollable: {
       direction: 'vertical'
     },
-    html: "<div class='host'>"+
+    html: "<div class='contact-details'>"+
+          "<div class='host'>"+
           /*"<div class='members'>"+
           "<label>"+
           "This year, the organization of AWESOME IT is conducted by:"+
@@ -46,6 +47,7 @@ function init_contact_components(){
           "AWESOME IT is organized by VIA, the student association"+
           " for computer science and AI related bachelor and master"+
           " students of the University of Amsterdam."+
+          "</div>"+
           "</div>"+
           "</div>"
   });

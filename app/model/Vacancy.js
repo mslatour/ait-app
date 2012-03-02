@@ -18,10 +18,10 @@ Ext.define('AIT.model.Vacancy', {
 	 *********************************************/
 	config: {
 		title: null,		    // Title of the vacancy (String)
-	  company: null,      // Reference to the company (String)
 		description: null,	// Short description of the vacancy (String)
     url: null,          // Url to more information (String)
     email: null,        // Contact information (String)
+    employer: null,     // Company information
     /**********************************************
      * Fields:
      * The fields object specifies the data items
@@ -35,10 +35,10 @@ Ext.define('AIT.model.Vacancy', {
      *********************************************/
     fields: [
       { name: 'title', type: 'string' },
-      { name: 'company', type: 'string' },
       { name: 'description', type: 'string' },
       { name: 'email', type: 'string' },
-      { name: 'url', type: 'string' }
+      { name: 'url', type: 'string' },
+      { name: 'employer', type: 'AIT.model.Company' }
     ],
     proxy: {
       type: "ajax",
@@ -48,6 +48,22 @@ Ext.define('AIT.model.Vacancy', {
         rootProperty: "vacancies"
       }
     }
+	},
+	
+  /**********************************************
+	 * function applyEmployer(employer):
+	 * Called just before setting the value for the 
+	 * employer entry. It converts the object
+	 * containing employer information, retrieved 
+	 * from the proxy, to a Company object. 
+	 
+	 * It indirectly uses the initConfig function 
+	 * of Company.
+	 *
+	 * @arg {Object} speaker Config for speaker
+	 *********************************************/
+	applyEmployer: function(employer){
+		return Ext.create('AIT.model.Company', employer);
 	},
 
 	/**********************************************
