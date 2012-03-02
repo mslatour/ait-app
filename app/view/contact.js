@@ -17,9 +17,11 @@ function init_contact_components(){
           "<li>1097 BC Amsterdam</li>"+
           "</ul>"+
           "</address>"+
-          "<img onclick='javascript: document.location=\"http://maps.google.nl/maps?f=q&source=s_q&hl=nl&geocode=&q=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&aq=0&oq=Casa+4&sll=52.350533,4.9193&sspn=0.006449,0.01929&vpsrc=6&g=Eerste+Ringdijkstraat,+Frankendael,+Amsterdam&ie=UTF8&hq=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&t=m&ll=52.352853,4.918184&spn=0.025164,0.054932&z=14&iwloc=A&output=embed\"' src='map2.png' />"+
+          "<a href='http://maps.google.nl/maps?f=q&source=s_q&hl=nl&geocode=&q=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&aq=0&oq=Casa+4&sll=52.350533,4.9193&sspn=0.006449,0.01929&vpsrc=6&g=Eerste+Ringdijkstraat,+Frankendael,+Amsterdam&ie=UTF8&hq=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&t=m&ll=52.352853,4.918184&spn=0.025164,0.054932&z=14&iwloc=A&output=embed'>"+
+          "<img src='map2.png' />"+
           "<br />"+
-          "<a href='http://maps.google.nl/maps?f=q&source=s_q&hl=nl&geocode=&q=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&aq=0&oq=Casa+4&sll=52.350533,4.9193&sspn=0.006449,0.01929&vpsrc=6&g=Eerste+Ringdijkstraat,+Frankendael,+Amsterdam&ie=UTF8&hq=Hotel+Casa+400,+Eerste+Ringdijkstraat,+Oost+en+Watergraafsmeer,+Amsterdam&t=m&ll=52.352853,4.918184&spn=0.025164,0.054932&z=14&iwloc=A&output=embed'>Click here to open in Google maps</a>"+
+          "Click here to open in Google maps"+
+          "</a>"+
           /*"</div>"+
           "<div class='contact-details'>"+
           "<div class='host'>"+
