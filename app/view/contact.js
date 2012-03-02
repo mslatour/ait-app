@@ -3,7 +3,7 @@ function init_contact_components(){
    * Components for the tab Contact  *
    ***********************************/
   COMP_TAB_CONTACT = Ext.create('Ext.Panel',{
-    title: 'About',
+    title: 'Location',
     iconCls: 'info',
     scrollable: {
       direction: 'vertical'
