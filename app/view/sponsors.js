@@ -9,7 +9,7 @@ function init_sponsor_components(){
     grouped: true,
     listeners: {
       select: function(){
-        var record = this.selected
+        var record = this.selected;
         COMP_SPONSORS_DETAILS_INFO_CONTENT.setData(
           record.items[0].data
         );
@@ -76,7 +76,10 @@ function init_sponsor_components(){
           var company = COMP_SPONSORS_DETAILS_INFO_CONTENT.getData()
           var store = COMP_SPONSORS_DETAILS_VACANCIES_CONTENT.getStore();
           store.clearFilter();
-          store.filter("company",company.name);
+          store.filterBy(function(record, id){
+            var employer = record.get("employer");       
+            return (employer.name == company.name);
+          });
           COMP_SPONSORS_DETAILS.setActiveItem(2);
         }
       }
@@ -97,13 +100,14 @@ function init_sponsor_components(){
     grouped: true,
     listeners: {
       select: function(){
-        var record = this.getSelected();
+        var record = this.selected;
         COMP_EVENTS_DETAILS_CONTENT.setData(
           record.items[0].data
         );
         COMP_TAB_EVENTS.setActiveItem(1)
+        COMP_MAIN_MENU.setActiveItem(2)
       },
-      scope: COMP_EVENTS_LIST
+      scope: COMP_SPONSORS_DETAILS_EVENTS_CONTENT
     }
   });
   
@@ -112,13 +116,14 @@ function init_sponsor_components(){
     itemTpl: '{title}',
     listeners: {
       select: function(){
-        var record = this.selected
+        var record = this.selected;
         COMP_VACANCIES_DETAILS_CONTENT.setData(
           record.items[0].data
         );
         COMP_TAB_VACANCIES.setActiveItem(1)
+        COMP_MAIN_MENU.setActiveItem(4)
       },
-      scope: COMP_VACANCIES_LIST
+      scope: COMP_SPONSORS_DETAILS_VACANCIES_CONTENT
     }
   });
   
