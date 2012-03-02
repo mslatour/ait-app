@@ -9,12 +9,12 @@ function init_contact_components(){
       direction: 'vertical'
     },
     html: "<div class='location-details'>"+ 
-          "<label>Hotel Casa 400</label>"+
+          "<label>Hotel Casa 400</label><br />"+
+          "<a href='http://www.casa400.nl'>www.casa400.nl</a>"+
           "<address>"+
           "<ul>"+
           "<li>Eerste Ringdijkstraat 4</li>"+
           "<li>1097 BC Amsterdam</li>"+
-          "<li>Nederland</li>"+
           "</ul>"+
           "</address>"+
           "<img src='map2.png' /><br />"+
