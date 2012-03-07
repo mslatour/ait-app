@@ -11,7 +11,7 @@
       surname: "Kr&#246;se",
       affiliation: "University of Amsterdam",
       url: "http://staff.science.uva.nl/~krose/",
-      description: "<p>Something about the speaker</p>",
+      description: "<p>Something about the speaker.</p>"
     }
   },
   {
@@ -50,21 +50,21 @@
     language: "EN",
     track: "IT",
     time: "12:15 - 13:15",
-    description: "<p>In this talk Andrew Adamatzky will elaborate on his research on physarum computing. In his research he accomplished to make slime molds do mathematics on a agar plate. The agar plate, which has the form of a country, contains heaps of food on top of the important cities. Then the slime molds create a network to bind the food sources in a efficient way. The result of this research is remarkable as the slime mold map hardly differs from the original map for highways.</p>",
+    description: "<p>Something about the lecture</p>",
     speaker: {
-      firstname: "Andrew",
-      surname: "Adamatzky",
-      affiliation: "University of the West of England",
-      url: "http://uncomp.uwe.ac.uk/adamatzky/",
-      description: "<p>Andrew Adamatzky is Professor in Unconventional Computing at the University of West England. He researches reaction-diffusion computing, cellular automata, physarum computing, massive parallel computation, applied mathematics, collective intelligence and robotics. He is amir of the Unconventional Computing Centre and a member of Bristol Robotics Lab.</p>"
+      firstname: "Peter",
+      surname: "Sloot",
+      affiliation: "University of Amsterdam",
+      url: "",
+      description: "<p>Something about the speaker</p>"
     }
   },
-    {
-        title: "Break",
-        slot: 91,
-        time: "13:15 - 14:15",
-        description: "Lunch at the Foyer Erasmus, Vide and Bar on the first floor"
-    },
+  {
+    title: "Break",
+    slot: 91,
+    time: "13:15 - 14:15",
+    description: "Lunch at the Foyer Erasmus, Vide and Bar on the first floor"
+  },
   {
     title: "Interactive Advertising",
     slot: 4,
@@ -125,10 +125,10 @@
       description: "<p>Dariu M. Gavrila received the MSc degree in computer science from the Vrije University in Amsterdam in 1990. He received the PhD degree in computer science from the University of Maryland at College Park in 1996. He was a Visiting Researcher at the MIT Media Laboratory in 1996. Since 1997, he has been a Senior Research Scientist at Daimler Research in Ulm, Germany. In 2003, he was named professor in the Faculty of Science at the University of Amsterdam, chairing the area of Intelligent Perception Systems (part time). Over the last decade, Prof. Gavrila focused on perception systems for detecting humans and their activity, with application to intelligent vehicles and surveillance. He published numerous papers in leading conferences and journals, and he received the I/O 2007 Award from the Netherlands Organisation for Scientific Research (NWO), as well as several conference paper awards.</p>"
     }
   },
-    {
-        title: "Drinks",
-        slot: 92,
-        time: "16:30 - ",
-        description: "Drinks at the bar on the first floor"
-    }
+  {
+    title: "Drinks",
+    slot: 92,
+    time: "16:30 - ",
+    description: "Drinks at the bar on the first floor"
+  }
 ]}
