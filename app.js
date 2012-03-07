@@ -55,7 +55,7 @@ Ext.application({
     });
    
     // Fix: links were not clickable on mobile phones
-    COMP_MAIN_MENU.body.on(
+/*    COMP_MAIN_MENU.body.on(
       'tap', 
       function(e, t) {
         document.location.href = t.href;
@@ -64,7 +64,7 @@ Ext.application({
       {
         delegate: 'a'
       }
-    );
+    );*/
     setTimeout("SPLASH.hide()", 1000);
 	}
 });
