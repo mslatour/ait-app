@@ -12,7 +12,7 @@ Ext.require("Ext.XTemplate", function(){
           '{speaker.affiliation}', 
         '</span>',
         '<span class="url">',
-          '{speaker.url}',
+          '<a href="{speaker.url}">{speaker.url}</a>',
         '</span>',
         '<div class="description">',
           '{speaker.description}', 
