@@ -5,15 +5,10 @@ Ext.application({
 	name: 'AIT',
 	appFolder: 'app',
 	models: ['Lecture','Speaker', 'Event', 'Company', 'Vacancy'],
-  phoneStartupScreen: "splash-phone.png ",
 	launch: function(){ 
-    SPLASH = Ext.create('Ext.Panel', {
-      floating: true,
-      model: true,
-      width: "100%",
-      height: "100%",
-      border: 0,
-      centered: true,
+/*
+    Ext.Viewport.add({
+      xtype: "panel",
       items: [
         {
           centered: true,
@@ -21,9 +16,39 @@ Ext.application({
           width: 250,
           html: "<img src='splash-phone.png' style='max-height: 70%; max-width: 70%;' />"
         }
-      ]
+      ],
+      listeners: {
+        tap: this.hide(),
+        scope: this
+      },
+      border: 0,
+      width: "100%",
+      height: "100%",
+      model: true,
+      centered: true
     });
-    SPLASH.show('pop');
+*/
+    SPLASH = Ext.create('Ext.Panel', {
+      modal: true,
+      hideOnMaskTap: true,
+      centered: true,
+      width: "50%",
+      height: "50%",
+      style: 'border: 0',
+      items: [{
+        xtype: 'img',
+        src: 'http://dev.app.awesomeit.nl/splash-phone.png',
+        centered: true,
+        style: "background-position: center; background-size: contain;",
+        border: 0,
+        height: "100%",
+        width: "100%",
+        listeners: {
+          tap: function(){ SPLASH.hide() }
+        }
+      }]
+    });
+    Ext.Viewport.add(SPLASH);
     init_components();
    
     // Create menu
@@ -65,6 +90,6 @@ Ext.application({
         delegate: 'a'
       }
     );*/
-    setTimeout("SPLASH.hide()", 1000);
+//    setTimeout("SPLASH.hide()", 1000);
 	}
 });
