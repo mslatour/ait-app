@@ -1,0 +1,49 @@
+.location-details {
+  padding: 0px 5px 5px 5px;
+}
+
+.location-details address {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.location-details address ul li {
+  list-style-type: none
+}
+
+.location-details label {
+	font-weight: bold;
+}
+
+.contact-details .host {
+	padding: 0px 5px 5px 5px;
+	font-size: medium;
+}
+
+.contact-details .host .description {
+	font-size: large;
+}
+
+.contact-details .host li {
+	padding-left: 1em;
+}
+
+.contact-details .host div {
+	padding-top: 10px;
+}
+
+.contact-details address {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.contact-details address .name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.contact-details address label {
+	font-weight: bold;
+}

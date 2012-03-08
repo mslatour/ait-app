@@ -1,0 +1,62 @@
+.event-details {
+  font-size: medium;
+  padding: 10px 5px 10px 5px;
+}
+
+.event-details .title{
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.event-details .date{
+  display: block;
+}
+
+.event-details .url{
+  font-style: italic;
+  display: block;
+}
+
+.event-details .description p{
+  margin: 10px 0 0 0;
+}
+
+.event-details .host {
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.event-details .host .name {
+  font-weight: bold;
+  display: block;
+  font-size: large;
+}
+
+.event-details .host .url {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  font-size: small;
+}
+
+.event-details .host .url a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.event-details .host .email {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
+
+.event-details .host .email a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.event-details .host .description p{
+  margin: 10px 0 0 0;
+}

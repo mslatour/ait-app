@@ -1,0 +1,62 @@
+{ vacancies: [
+  {
+    title: "Starter/Junior Java Developer Utrecht",
+    email: "info@starapple.nl",
+    description: "<p>Als Java programmeur ga je werken aan zeer uitdagende en uitlopende projecten voor klanten uit de randstad. Je zult voornamelijk aanwezig zijn op locatie bij de opdrachtgever. Deze klanten vari#235;ren van grote multinationals als Rabobank en Unilever als minder grote bedrijven. Je gaat werken aan het ontwerp, ontwikkeling, beheren en testen van websites en mobiele internetoplossingen (zowel front end als back end). Om al deze werkzaamheden in goede banen te leiden krijg je veel mogelijkheden tot het volgen van trainingen en cursussen. Deze zijn voor jou geheel kosteloos en je kunt deze trainingen zelf kiezen. Daarnaast zal je goed begeleidt en ondersteunt worden door ervaren en professionele collega&#39;s.</p>",
+    url: "http://www.starapple.nl/vacature-7237-Starter_of_Junior_Java_Developer_en_zoekend_naar_een_baan_in_2012_Utrecht/",
+    employer: {
+      name: "Star Apple",
+      description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
+      url: "http://www.starapple.nl",
+      email: "info@starapple.nl"
+    }
+  },
+  {
+    title: "Junior .NET ontwikkelaar Utrecht",
+    email: "info@starapple.nl",
+    description: "<p>Als getalenteerde .NET ontwikkelaar ontwikkel jij vanuit een vaste locatie in Utrecht applicaties op basis van functioneel en technische ontwerpen. Je zult, na wat trainingen te volgen en met goede begeleiding van collega#39;s voornamelijk in teamverband aan de complexere productontwikkelingen werken. Denk aan applicaties die moeten worden gekoppeld aan externe systemen. Typische overige doeleinden zijn het implementeren van datamodels, data services, webforms en webcontrols. Dit is jouw kans op een goed begin van jouw .NET carri&#232;re, laat hem niet liggen!</p>",
+    url: "http://www.starapple.nl/vacature-9541-Vacature_Junior_NET_ontwikkelaar_in_Utrecht_Utrecht/",
+    employer: {
+      name: "Star Apple",
+      description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
+      url: "http://www.starapple.nl",
+      email: "info@starapple.nl"
+    }
+  },
+  {
+    title: "Junior .NET ontwikkelaar Rotterdam",
+    email: "info@starapple.nl",
+    description: "<p>In een team van gedreven ontwikkelaars zal jij betrokken zijn in het ontwikkelen van nieuwe CMS applicaties op de wensen van de klant. Je pro actieve werk houding en leergierigheid motiveren je tot een inzet van maar liefst 110%. Je kan goed communiceren met je collega&#39;s en houdt van te sparren met je collega&#39;s. Ontwikkelen zit in je bloed en je zou je graag in nieuwe technieken willen verdiepen. Hier zal je dan ook de kans krijgen te groeien tot bijvoorbeeld Senior ontwikkelaar. Ben jij klaar voor de start ? Reageer snel en kijk bij de hier onderstaande eisen of je hiervoor in aanmerking komt.</p>",
+    url: "http://www.starapple.nl/vacature-8188-Junior_NET_ontwikkelaar_gezocht_in_de_regio_Rotterdam_Rotterdam/",
+    employer: {
+      name: "Star Apple",
+      description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
+      url: "http://www.starapple.nl",
+      email: "info@starapple.nl"
+    }
+  },
+  {
+    title: "Junior PHP ontwikkelaar Den Haag",
+    email: "info@starapple.nl",
+    description: "<p>In de functie van Junior PHP Developer ben je werkzaam aan zowel Frontend (design), als Backend van deze grote klanten.</p><p>Je baan houdt dus in het kort in dat je dagelijks bezig bent met PHP (jouw passie!), de nieuwste technieken, een gezellig team en collega&#39;s waar je veel van kan leren. De ideale start voor een glansrijke carri&#232;re als PHP Developer of als aanvulling op je huidige CV.</p>",
+    url: "http://www.starapple.nl/vacature-9743-Vacature_Junior_PHP_Ontwikkelaar_in_Den_Haag_Den_Haag/",
+    employer: {
+      name: "Star Apple",
+      description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
+      url: "http://www.starapple.nl",
+      email: "info@starapple.nl"
+    }
+  },
+  {
+    title: "Junior PHP Programmeur Amsterdam",
+    email: "info@starapple.nl",
+    description: "<p>Deze functie is voor een Junior PHP Programmeur. Sta jij onderaan die carri&#232;re ladder en zoek je een mooie eerste stap, dan zit je hier goed? Je speelt in op de vraag van de klant en maakt aanpassing naar diens wensen. Je bent bezig met de gegevens domein omzetten in een database, waar de nodige technische kennis voor nodig is.</p>",
+    url: "http://www.starapple.nl/vacature-8445-Startersbaan_voor_echte_PHP_Programmeurs_regio_Amsterdam/",
+    employer: {
+      name: "Star Apple",
+      description: "<p>Star Apple quickly developed to a recruitment agency since her establishment in 2008. We focus on recruiting and selecting of specific IT specialists for a varying group of companies and we are the next step for candidates who are seeking for a new challenge.</p>",
+      url: "http://www.starapple.nl",
+      email: "info@starapple.nl"
+    }
+  }
+]}

@@ -1,6 +1,5 @@
-Ext.define('app.model.Speaker', {
+Ext.define('AIT.model.Speaker', {
 	extend: 'Ext.data.Model',
-	modelId: 'app.model.Speaker',
 
 	/**********************************************
 	 * Config:
@@ -13,7 +12,8 @@ Ext.define('app.model.Speaker', {
 	config: {
 		firstname: null,	// First name of the speaker (String)
 		surname: null,		// Surname of the speaker (String)
-		affiliation: null,	// Affiliation of the speaker (String)
+		affiliation: null,// Affiliation of the speaker (String)
+		url: null,	      // URL of the website of the speaker (String)
 		description: null	// Short description about the speaker (String)
 	},
 

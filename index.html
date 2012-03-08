@@ -5,22 +5,32 @@
 		<title>AWESOME IT - The Future Edition</title>
 		
 		<!-- Sencha Touch 2.0 library - www.sencha.com -->
-		<script type="text/javascript" src="lib/touch/sencha-touch-all-debug-w-comments.js"></script>
-		
-		<!-- Models -->
-		<script type="text/javascript" src="app/model/Lecture.js"></script>
-		<script type="text/javascript" src="app/model/Speaker.js"></script>
+		<script type="text/javascript" src="lib/sencha-touch-2.0.0-gpl/sencha-touch-all.js"></script>
 		
 		<!-- Stores -->
 		<script type="text/javascript" src="app/store/LectureStore.js"></script>
+		<script type="text/javascript" src="app/store/EventStore.js"></script>
+		<script type="text/javascript" src="app/store/SponsorStore.js"></script>
+	  <script type="text/javascript" src="app/store/VacancyStore.js"></script>
 		
 		<!-- Controllers -->
 		
 		<!-- Views (autoload)-->
-		<script type="text/javascript" src="app/components.js"></script>
+		<script type="text/javascript" src="app/view/init.js"></script>
+		<script type="text/javascript" src="app/view/schedule.js"></script>
+		<script type="text/javascript" src="app/view/contact.js"></script>
+		<script type="text/javascript" src="app/view/events.js"></script>
+		<script type="text/javascript" src="app/view/vacancies.js"></script>
+		<script type="text/javascript" src="app/view/sponsors.js"></script>
+		<script type="text/javascript" src="app/view/templates.js"></script>
 
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="lib/touch/resources/css/sencha-touch.css" type="text/css">
+		<link rel="stylesheet" href="lib/touch2/resources/css/sencha-touch.css" type="text/css">
+		<link rel="stylesheet" href="static/style/lectures.css" type="text/css">
+		<link rel="stylesheet" href="static/style/events.css" type="text/css">
+		<link rel="stylesheet" href="static/style/contact.css" type="text/css">
+		<link rel="stylesheet" href="static/style/sponsors.css" type="text/css">
+		<link rel="stylesheet" href="static/style/vacancies.css" type="text/css">
 		
 		<!-- Starting point App -->
 		<script type="text/javascript" src="app.js"></script>
@@ -28,3 +38,4 @@
 	<body>
 	</body>
 </html>
+

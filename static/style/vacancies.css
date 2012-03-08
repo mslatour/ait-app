@@ -1,0 +1,62 @@
+.vacancy-details {
+  font-size: medium;
+  padding: 10px 5px 10px 5px;
+}
+
+.vacancy-details .title{
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.vacancy-details .url{
+  font-style: italic;
+  display: block;
+}
+
+.vacancy-details .email {
+  display: block;
+}
+
+.vacancy-details .description p{
+  margin: 10px 0 0 0;
+}
+
+.vacancy-details .employer {
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.vacancy-details .employer .name {
+  font-weight: bold;
+  display: block;
+  font-size: large;
+}
+
+.vacancy-details .employer .url {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  font-size: small;
+}
+
+.vacancy-details .employer .url a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.vacancy-details .employer .email {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
+
+.vacancy-details .employer .email a {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.vacancy-details .employer .description p{
+  margin: 10px 0 0 0;
+}
