@@ -37,7 +37,7 @@ Ext.application({
       style: 'border: 0',
       items: [{
         xtype: 'img',
-        src: 'http://dev.app.awesomeit.nl/splash-phone.png',
+        src: 'http://dev.app.awesomeit.nl/splash-phone-tap.png',
         centered: true,
         style: "background-position: center; background-size: contain;",
         border: 0,
