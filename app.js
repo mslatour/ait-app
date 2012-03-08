@@ -32,8 +32,8 @@ Ext.application({
       modal: true,
       hideOnMaskTap: true,
       centered: true,
-      width: "50%",
-      height: "50%",
+      width: "100%",
+      height: "100%",
       style: 'border: 0',
       items: [{
         xtype: 'img',
