@@ -1,0 +1,1 @@
+AIT-APP is an HTML5 Application that will be used as a new way of interaction between visitors, speakers and sponsors on the AWESOME IT - Future Edition symposium on April 13th in Amsterdam. Target audience consists of mostly Computer Science students. Symposium is organized by student association VIA of the University of Amsterdam.
